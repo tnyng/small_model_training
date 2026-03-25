@@ -8,6 +8,9 @@ def test_load_config_exposes_core_training_fields():
 
     assert config.model_name
     assert config.max_length > 0
+    assert config.pooling_strategy == "mean"
+    assert config.uq_method == "none"
+    assert config.num_ensemble_members == 1
     assert config.train_batch_size > 0
     assert config.eval_batch_size > 0
     assert config.learning_rate > 0

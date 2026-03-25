@@ -2,6 +2,7 @@ model:
   name: answerdotai/ModernBERT-base
   max_length: 256
   dropout_prob: 0.1
+  pooling_strategy: mean
 
 data:
   train_path: data/train.csv
@@ -26,6 +27,8 @@ loss:
   difficulty_weight: 1.0
 
 uncertainty:
+  method: none
+  num_ensemble_members: 1
   mc_dropout_passes: 8
 
 output:

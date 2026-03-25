@@ -115,7 +115,11 @@ def predict_batches(
     logits = []
     probabilities = []
     difficulty_predictions = []
+    member_logits = []
+    probability_variances = []
+    mutual_information = []
     labels = []
+    uncertainty_method = getattr(model, "uq_method", "none")
 
     with torch.no_grad():
         for batch in batches:
@@ -126,8 +130,15 @@ def predict_batches(
             )
             batch_logits = outputs.logits_cls.detach().cpu()
             logits.append(batch_logits.numpy())
-            probabilities.append(torch.sigmoid(batch_logits).numpy())
+            if outputs.mean_probability is not None:
+                probabilities.append(outputs.mean_probability.detach().cpu().numpy())
+            else:
+                probabilities.append(torch.sigmoid(batch_logits).numpy())
             difficulty_predictions.append(outputs.difficulty_pred.detach().cpu().numpy())
+            if outputs.member_logits is not None:
+                member_logits.append(outputs.member_logits.detach().cpu().numpy())
+                probability_variances.append(outputs.probability_variance.detach().cpu().numpy())
+                mutual_information.append(outputs.mutual_information.detach().cpu().numpy())
             if "labels" in batch:
                 labels.append(batch["labels"].detach().cpu().numpy())
 
@@ -135,7 +146,12 @@ def predict_batches(
         "logits": np.concatenate(logits, axis=0),
         "probabilities": np.concatenate(probabilities, axis=0),
         "difficulty_predictions": np.concatenate(difficulty_predictions, axis=0),
+        "uncertainty_method": uncertainty_method,
     }
+    if member_logits:
+        result["member_logits"] = np.concatenate(member_logits, axis=0)
+        result["probability_variance"] = np.concatenate(probability_variances, axis=0)
+        result["mutual_information"] = np.concatenate(mutual_information, axis=0)
     if labels:
         result["labels"] = np.concatenate(labels, axis=0)
     return result

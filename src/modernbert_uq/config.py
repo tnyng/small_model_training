@@ -12,6 +12,9 @@ class ExperimentConfig:
     model_name: str
     max_length: int
     dropout_prob: float
+    pooling_strategy: str
+    uq_method: str
+    num_ensemble_members: int
     train_batch_size: int
     eval_batch_size: int
     learning_rate: float
@@ -36,6 +39,9 @@ def load_config(path: str | Path) -> ExperimentConfig:
         model_name=str(raw_config["model"]["name"]),
         max_length=int(raw_config["model"]["max_length"]),
         dropout_prob=float(raw_config["model"].get("dropout_prob", 0.1)),
+        pooling_strategy=str(raw_config["model"].get("pooling_strategy", "mean")),
+        uq_method=str(raw_config["uncertainty"].get("method", "none")),
+        num_ensemble_members=int(raw_config["uncertainty"].get("num_ensemble_members", 1)),
         train_batch_size=int(raw_config["training"]["train_batch_size"]),
         eval_batch_size=int(raw_config["training"]["eval_batch_size"]),
         learning_rate=float(raw_config["optimizer"]["learning_rate"]),
