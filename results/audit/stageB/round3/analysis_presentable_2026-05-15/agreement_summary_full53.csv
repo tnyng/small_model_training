@@ -1,0 +1,6 @@
+field,items_with_2plus_labels,complete_items,mean_pairwise_agreement,fleiss_kappa
+claim_well_formed,53,46,0.877,0.373
+entailment,51,47,0.627,0.308
+score_correct,51,46,0.706,0.359
+pass_strict,53,46,0.714,0.379
+pass_lenient,53,46,0.745,0.459

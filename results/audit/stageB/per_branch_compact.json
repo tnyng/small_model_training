@@ -1,0 +1,722 @@
+[
+ {
+  "id": "B0001",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "1.0",
+  "prop": "The text says, \"cancer patients live 4x longer by refusing chemotherapy 25 years of research.",
+  "src": "cancer patients live 4x longer by refusing chemotherapy 25 years of research."
+ },
+ {
+  "id": "B0002",
+  "combo": "heuristic",
+  "score": "3",
+  "cov": "1.0",
+  "prop": "the text is: \"acupuncture at si guan xue shown to be powerful pain relief treatment for cancer patients.",
+  "src": "acupuncture at si guan xue shown to be powerful pain relief treatment for cancer patients."
+ },
+ {
+  "id": "B0003",
+  "combo": "heuristic",
+  "score": "3",
+  "cov": "0.167",
+  "prop": "the text uses \"busting\" could be misleading if it's not accurately representing the facts.",
+  "src": "cancer busting myths mysterious cancer microbe alternative before it 's news."
+ },
+ {
+  "id": "B0004",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "0.333",
+  "prop": "the text then they mention the KKK, which is a well-known white supremacist group.",
+  "src": "the demokkkrats are still the party of the klan . look at their racist remarks and all white candidates for the presidency"
+ },
+ {
+  "id": "B0005",
+  "combo": "heuristic",
+  "score": "3",
+  "cov": "0.75",
+  "prop": "tactics such as mining ports.",
+  "src": "plan which was developed followed your guidance with only some minor shift in the scheduling of certain targets between categories 1 and 2 which had the purpose of concentrating on areas such as Hanoi, Haiphong rather than just specific types of targets. The entire plan would be completed in seven d"
+ },
+ {
+  "id": "B0006",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "1.0",
+  "prop": "Blocking of Unlawful Online Content (Procedure, Oversight.",
+  "src": "Islamabad, Nov. 20 -- Technology companies threatened to pull out of Pakistan if government regulations which will define how social media is to be governed in the country are allowed to stay on which they said would make it increasingly difficult for them to continue their operations in the country"
+ },
+ {
+  "id": "B0007",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "0.1",
+  "prop": "the text since it's using the term \"white\" in a way that could be associated with exclusionary ideologies, this might be implicit hate speech.",
+  "src": "let's be a white resister !"
+ },
+ {
+  "id": "B0008",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "0.2",
+  "prop": "the text this is more than just neutral or polite.",
+  "src": "Doing a redundant `atoi` after you just did `strtol` is probably the most twisted insult to the proper use of string-to-int conversion functions in C one can come up with. Why do you see the need to \"re-convert\" the value using the broken function `atoi` when you already have it as `val` from a prop"
+ },
+ {
+  "id": "B0009",
+  "combo": "heuristic",
+  "score": "1",
+  "cov": "0.5",
+  "prop": "the text uses the phrase \"There is no Planet B,\".",
+  "src": "The Build Back Better Act will address the climate crisis in a  transformative way.  There is no Planet B."
+ },
+ {
+  "id": "B0010",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "0.333",
+  "prop": "the text since the article is reporting on the situation without\u660e\u663e\u7684 bias towards left or right, and the content is about Republican strategies without favoring one faction over another, the bias is likely Center.",
+  "src": "The tea party vs. establishment theme has also defined several Republican races . May primaries to test GOP The month of May will go a long way toward answering one of the overriding questions of Election 2014 : Can the Republican establishment finally tame the tea party and retake the Senate ? A mo"
+ },
+ {
+  "id": "B0011",
+  "combo": "heuristic",
+  "score": "7",
+  "cov": "0.429",
+  "prop": "the text looking for military terms: There's a lot of mention of military actions.",
+  "src": "asked if we wanted to take on the role of peace maker. Mr. SPLIT asked who was holding the Hotel Ambassador now, and added that he assumed it was the friendlies. 2 Mr. SPLIT said in any event the recommendation was clear: we give the order and then we begin to draft the statements. The :: There is n"
+ },
+ {
+  "id": "B0012",
+  "combo": "heuristic",
+  "score": "7",
+  "cov": "0.4",
+  "prop": "the industry's response, as well as Romney's fundraising.",
+  "src": "President Barack Obama called Wall Street executives `` fat cats , '' criticized their bonuses and tried to raise their taxes . The financial-services industry , in turn , has directed a stream of complaints toward the administration , fueling perceptions of a rift between the president and a key 20"
+ },
+ {
+  "id": "B0013",
+  "combo": "heuristic",
+  "score": "5",
+  "cov": "0.1",
+  "prop": "the text from what I know, most states have measures to ensure access to vaccines, but there could be exceptions.",
+  "src": "Why Do Some States Make It Difficult for Children to Get Flu Shots?"
+ },
+ {
+  "id": "B0014",
+  "combo": "heuristic",
+  "score": "7",
+  "cov": "0.4",
+  "prop": "the text uses \"Are you saying...\" is a bit direct.",
+  "src": "Are you saying this doesn't compile elsewhere? Ie this is xcode specific?"
+ },
+ {
+  "id": "B0015",
+  "combo": "heuristic",
+  "score": "7",
+  "cov": "0.2",
+  "prop": "the text this could be a negative point regarding wait times.",
+  "src": "It's a basic, no frills nail salon.  You can't beat a $20 pedicure!   I've never had any disasters or big issues here and I have been going about once a month for over two years.   It's dingy in there but whatever.  A good deep cleaning and a paint job would do wonders but they're packed so clearly "
+ },
+ {
+  "id": "B0016",
+  "combo": "heuristic",
+  "score": "9",
+  "cov": "1.0",
+  "prop": "the text mentions FBI agents and a man from Pittsburgh who might lead them to a woman who killed him.",
+  "src": " fbi agents hope pittsburgh man will be able to lead them to woman who killed him"
+ },
+ {
+  "id": "B0017",
+  "combo": "heuristic",
+  "score": "9",
+  "cov": "0.833",
+  "prop": "the text mentions that groups are promoting violence against the governor on Facebook.",
+  "src": "Ahead of an armed rally planned for the Capitol building in Lansing, Michigan, this coming Thursday, groups are promoting violence against Gov. Gretchen Whitmer on Facebook, in violation of the social media company\u2019s policies. #mileg    https://t.co/KxoIWS0wzT https://t.co/XG20HOBiFO"
+ },
+ {
+  "id": "B0018",
+  "combo": "heuristic",
+  "score": "8",
+  "cov": "0.25",
+  "prop": "the text mentions of \"white\" could be pointing out a racial term.",
+  "src": "then why do you use the word white ? youre the racist . pure idiocy . get a vocabulary ."
+ },
+ {
+  "id": "B0019",
+  "combo": "heuristic",
+  "score": "8",
+  "cov": "0.2",
+  "prop": "the text discusses the processes and implications of Facebook's moderation actions.",
+  "src": "There is a growing bipartisan consensus that the Big Tech platforms are not acting in the public interest. The problem is this means completely different things to different people.  Last week's confused ruling by Facebook's internal oversight board over the platform's permanent ban on Donald Trump "
+ },
+ {
+  "id": "B0020",
+  "combo": "heuristic",
+  "score": "9",
+  "cov": "0.5",
+  "prop": "the text uses the phrase \"horrible to us\".",
+  "src": "this is me, I'm trans, my boyfriend is black, and black people are being targeted by the police, and Trump made it so I can be denied Medical treatment and left to die if something happens to me. I'm in the United States. I want to go to Canada or the Netherlands. I would save up money for a passpor"
+ },
+ {
+  "id": "B0021",
+  "combo": "heuristic",
+  "score": "8",
+  "cov": "0.333",
+  "prop": "the text itself is a policy preference.",
+  "src": "  \" trump is right : america needs a merit-based immigration policy \" \" via \""
+ },
+ {
+  "id": "B0022",
+  "combo": "heuristic",
+  "score": "9",
+  "cov": "0.7",
+  "prop": "the text mentions Facebook banning a historical photo of a Soviet soldier waving the USSR flag over the Reichstag in 1945.",
+  "src": "#Facebook has banned the iconic photograph of a #Soviet solider waving the #USSR flag over the #Reichstag in May 1945. The social network claims the image violates its community guidelines for dangerous people and organizations...  MORE: https://t.co/arpDN9Ss0P https://t.co/KGtGwE4D5J"
+ },
+ {
+  "id": "B0023",
+  "combo": "heuristic",
+  "score": "8",
+  "cov": "0.2",
+  "prop": "the text mentions of \"pro-life\" here is likely part of the context of the lawsuit.",
+  "src": "3rd circuit reinstates lawsuit against pittsburgh censorship zones via #prolife"
+ },
+ {
+  "id": "B0024",
+  "combo": "heuristic",
+  "score": "8",
+  "cov": "0.2",
+  "prop": "the text perhaps it's supposed to say \"health before it's a news\" or something similar, but the exact meaning is unclear.",
+  "src": "quercetin causes cancer cells to die health before it 's news."
+ },
+ {
+  "id": "B0025",
+  "combo": "heuristic",
+  "score": "8",
+  "cov": "0.5",
+  "prop": "the text mentions of \"alt right\" is a reference to his ideology.",
+  "src": " how's your buddy jason kessler the cnn occupy wall street reporter ? oops i mean  \" alt right thought lead \""
+ },
+ {
+  "id": "B0026",
+  "combo": "heuristic",
+  "score": "2",
+  "cov": "0.2",
+  "prop": "the text i don't see any negative words like \"why don't you\" or \"you should\".",
+  "src": "Can you compile for 64 bits? If not, can you tell the compiler that your EXE supports up to 4GB?"
+ },
+ {
+  "id": "B0027",
+  "combo": "heuristic",
+  "score": "9",
+  "cov": "0.125",
+  "prop": "The text is not just offensive but is driven by bias against women, making it Hateful.",
+  "src": "Women have been turned into pure toilet scum. They no longer care about taking care of a man the way that they want to be taken care of. They only want to Manipulate and Monkey Branch! She does not care about you!"
+ },
+ {
+  "id": "B0028",
+  "combo": "heuristic",
+  "score": "7",
+  "cov": "0.111",
+  "prop": "the text research shows that microplastics are indeed a major problem, but the exact quantity can vary.",
+  "src": "Billions of microplastics flooding our seas scientists warn that environmental pollution is worse t"
+ },
+ {
+  "id": "B0029",
+  "combo": "heuristic",
+  "score": "9",
+  "cov": "0.167",
+  "prop": "The text begins with \"Fine,\" which can indicate dismissiveness or sarcasm.",
+  "src": "Fine, but it took me no more than a couple of seconds to find a source. Why couldn't you do it instead of removing the content?"
+ },
+ {
+  "id": "B0030",
+  "combo": "heuristic",
+  "score": "7",
+  "cov": "0.111",
+  "prop": "the text since the tweet is pointing out that CPCs are religious and making negative claims about their actions, it's possible this could be seen as implicit hate if the implication is that their religion justifies the negative actions.",
+  "src": "cpcs are not clinics ! they are religious orgs that lie to #women and coerce them into carr"
+ },
+ {
+  "id": "B0031",
+  "combo": "llm_gpt5mini",
+  "score": "1",
+  "cov": "0.2",
+  "prop": "the text mentions several Twitter handles at the start of the tweet.",
+  "src": "GIVEAWAY. PHIXO Only. EXO OBSESSION Album  RULES: - RT this tweet   - Stream Self-Portrait on any platform (Youtube, Spotify, etc)  - Reply with screenshot  - End: Pag tapos po ng Quarantine.  #Self_Portrait   #SUHO  #LETSLOVESUHO  #OBSESSION  #weareoneEXO https://t.co/pUDWt0b5UP"
+ },
+ {
+  "id": "B0032",
+  "combo": "llm_gpt5mini",
+  "score": "3",
+  "cov": "0.857",
+  "prop": "the text discusses former Vice President Joe Biden and his campaign.",
+  "src": "The left believes Sanders \u2019 s chances have improved , but notes that obstacles still remain . \u201c Sanders reportedly pulled in about $ 34.5 million in the fourth quarter of 2019 , which makes for a total sum of nearly $ 100 million . No one else is even close\u2026 Those who lead in fundraising at this poi"
+ },
+ {
+  "id": "B0033",
+  "combo": "llm_gpt5mini",
+  "score": "4",
+  "cov": "0.778",
+  "prop": "the text presents arguments in favor of NATO membership (security against Russian threats).",
+  "src": "This is a photograph of an AN-27 Russian military transport aircraft . Which would n't be so extraordinary , except that the air force of Finland says they took the photo while the Russian plane was in Finnish airspace . Even that would n't necessarily be so extraordinary , except the Finns say it w"
+ },
+ {
+  "id": "B0034",
+  "combo": "llm_gpt5mini",
+  "score": "2",
+  "cov": "0.375",
+  "prop": "the text implies there is no difference between internment camps and concentration camps (equates the two).",
+  "src": "what 's the difference between an internment camp and a concentration camp ? i do n't know . i do nazi a difference ."
+ },
+ {
+  "id": "B0035",
+  "combo": "llm_gpt5mini",
+  "score": "2",
+  "cov": "0.5",
+  "prop": "the text raises public opinion and press handling as factors influencing decision-making.",
+  "src": "I agree. That is when I heard of it. :: Isn'92t this piracy? SPLIT Americans? SPLIT When did we get word of this? SPLIT I also. SPLIT Can we notify merchant ships of the danger? General SPLIT I do not see the advantage of announcing the warning. We could make a case on either side. To the extent we "
+ },
+ {
+  "id": "B0036",
+  "combo": "llm_gpt5mini",
+  "score": "3",
+  "cov": "0.333",
+  "prop": "the text could be interpreted as excluding immigrants from the category \"American people.\"",
+  "src": " rt  \" there is one core issue in the immigration debate : the well-being of the american people . nothing even comes a close second . \" \" \""
+ },
+ {
+  "id": "B0037",
+  "combo": "llm_gpt5mini",
+  "score": "3",
+  "cov": "0.889",
+  "prop": "the text discusses forthcoming arms shipments and whether their place of origin or their use should be emphasized in the President\u2019s statement.",
+  "src": "then pointed out that the forthcoming arms shipments to Guatemala might well come from other countries than those behind the Iron Curtain, and wondered whether the phrasing of the President'92s statement should be changed to recognize this fact and to take account of the importance of the use to whi"
+ },
+ {
+  "id": "B0038",
+  "combo": "llm_gpt5mini",
+  "score": "2",
+  "cov": "1.0",
+  "prop": "the text discusses the security of U.S. citizens in relation to the Bazarghan government.",
+  "src": "continued that in his view the options that we had were very limited. We will have to place the security of U.S. citizens in the hands of the Bazarghan government. How can we do that, if Bazarghan is not supported by the army? Even if the army tries to act, large elements of leftists, Communists, an"
+ },
+ {
+  "id": "B0039",
+  "combo": "llm_gpt5mini",
+  "score": "2",
+  "cov": "0.3",
+  "prop": "the text refers to the \"Church of Global Warming\" as an entity aligned with the view that climate change is serious.",
+  "src": "The data isn\u2019t lining up with the Church of Global Warming."
+ },
+ {
+  "id": "B0040",
+  "combo": "llm_gpt5mini",
+  "score": "1",
+  "cov": "0.333",
+  "prop": "the text implies support for the view that climate change / global warming is a serious concern.",
+  "src": "Climate deniers blame global warming on aliens from outer space."
+ },
+ {
+  "id": "B0041",
+  "combo": "llm_gpt5mini",
+  "score": "7",
+  "cov": "0.167",
+  "prop": "the text's inclusion of \"thanks\" conveys polite intent.",
+  "src": "I've clarified the question, thanks ax. @runrunraygun: What is a community wiki?"
+ },
+ {
+  "id": "B0042",
+  "combo": "llm_gpt5mini",
+  "score": "7",
+  "cov": "0.571",
+  "prop": "the text attributes the cause of global warming to humans (causation attribution).",
+  "src": "45 % of the general public view perceived global warming as caused by humans."
+ },
+ {
+  "id": "B0043",
+  "combo": "llm_gpt5mini",
+  "score": "7",
+  "cov": "0.167",
+  "prop": "the text implies the rainfall may be insufficient or unhelpful for resolving the drought.",
+  "src": "Rains Mock Drought-Stricken Australian Town as Climate Risks Hit Home"
+ },
+ {
+  "id": "B0044",
+  "combo": "llm_gpt5mini",
+  "score": "7",
+  "cov": "0.5",
+  "prop": "the text refers to \"your followers,\" addressing the recipient's followers.",
+  "src": "@EddieWr99671067 One thing you (and your followers) can do to help avoid having your photos stolen is to block content scraper accounts. If they can\u2019t see your tweets then they are less likely to be able to steal your photos. Also report them."
+ },
+ {
+  "id": "B0045",
+  "combo": "llm_gpt5mini",
+  "score": "7",
+  "cov": "0.75",
+  "prop": "the text describes \"all these people\" as \"fragile.\"",
+  "src": "\"I'll be protecting my mental health\" can we talk for a second about how all these people are so fragile, can we wonder if maybe it is their mental health? If being depressed in itself is part of a bigger mental health problem? Just thoughts."
+ },
+ {
+  "id": "B0046",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.5",
+  "prop": "the phrase \"becomes a reality\" in the text implies the bill will be enacted or implemented.",
+  "src": "How a climate bill becomes a reality"
+ },
+ {
+  "id": "B0047",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.2",
+  "prop": "the text references \"Erotica,\" indicating an adult/sexual-content genre.",
+  "src": "Deal Of The Day: Best Lesbian Erotica of the Year https://t.co/mXxY4IiARL https://t.co/BRUuwGzFd8"
+ },
+ {
+  "id": "B0048",
+  "combo": "llm_gpt5mini",
+  "score": "8",
+  "cov": "0.9",
+  "prop": "the text analyzes the consequences of a Communist takeover of Cambodia, including a profound psychological shock in South Vietnam.",
+  "src": "Cambodia Options The Situation Cambodia's President Lon Nol has written asking immediate U.S. aid in arming Cambodian forces to a total of 410,000 (Tab A). 2 North Vietnamese and Vietcong forces are nearing Phnom Penh. They have moved with surprising ease against the poorly organized, ill-equipped a"
+ },
+ {
+  "id": "B0049",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.727",
+  "prop": "the text asserts Brat is a doctrinaire libertarian who believes wealth and power concentrated in individuals is preferable.",
+  "src": "Both the left and the right have found reasons to celebrate the upset of Majority Leader Eric Cantor in Tuesday 's Virginia primary . The right sees it as a victory for the local grass roots that 's fed up with Washington and a vindication of principled conservative values , particularly on the issu"
+ },
+ {
+  "id": "B0050",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.2",
+  "prop": "the text does not explicitly state that the commissioner has lied.",
+  "src": "Dear Commissioner Hahn: Tell the Truth or Resign"
+ },
+ {
+  "id": "B0051",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.867",
+  "prop": "the text states that a large share of ad spending in the North Carolina Senate race has come from outside groups rather than the campaigns.",
+  "src": "Story highlights Establishment Republicans are fighting back more strongly against challenges from the right With a number of vulnerable Democrats in the Senate , GOP thinks it can win control North Carolina primary seen as a key test of establishment-vs.-tea party scenario Voters in North Carolina "
+ },
+ {
+  "id": "B0052",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "1.0",
+  "prop": "the text includes the phrase \"Delivered by Newstex.\"",
+  "src": "  Jan 27, 2021( The Geller Report: https://gellerreport.com Delivered by Newstex) ; Righteous. Calls from the fraudulent party to pack the court in ..321..,.Quick note: Tech giants are snuffing us out. You know this. Facebook, Twitter, Google et al have shadowbanned, suspended and in some cases dele"
+ },
+ {
+  "id": "B0053",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.286",
+  "prop": "the text begins with \"OK you're right,\" acknowledging the other person's perspective.",
+  "src": "OK you're right- I guess IPs can't do it. I believe they're all fixed now, right?"
+ },
+ {
+  "id": "B0054",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.125",
+  "prop": "the text is a routine follow-up or procedural message intended to resolve a contact issue.",
+  "src": "@user however your number was not reachable. Please provide us an alternate contact number and share a convenient time to 2/3"
+ },
+ {
+  "id": "B0055",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.833",
+  "prop": "the text argues these alternative ideas would remove the perceived need for an invasive worker-verification system and a government citizenship database.",
+  "src": "The controversial immigration-reform bill that passed the Senate Judiciary Committee this week is expected to be considered by the Senate in June . Many see measures contained in this bill , such as a strong E-Verify and a \u201c photo tool , \u201d as a means to control unlawful immigrants \u2019 access to unlawf"
+ },
+ {
+  "id": "B0056",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.091",
+  "prop": "the text does not emphasize conservative or right-leaning policy positions (such as calls for deregulation or emphasis on individual responsibility).",
+  "src": "CHICAGO \u2014 The University of Chicago announced Thursday it will no longer require its American undergraduate applicants to submit ACT or SAT scores , making it the most prominent institution to make the exams optional . Several smaller liberal arts colleges\u2014 and a few first-tier research universities"
+ },
+ {
+  "id": "B0057",
+  "combo": "llm_gpt5mini",
+  "score": "7",
+  "cov": "0.125",
+  "prop": "the text attacks or expresses hostility toward white people (a racial group).",
+  "src": " rt rt :  \" : zuckerberg's dream : the anti-white racist social network via \" \" \""
+ },
+ {
+  "id": "B0058",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.182",
+  "prop": "the text uses neutral, factual language and presents reporting through quotations rather than editorializing.",
+  "src": "The transformative nature of President Trump 's election in 2016 -- by way of a unique coalition of support -- had given Republicans a degree of optimism heading into a challenging midterm election season . Though the president has historically low approval ratings nationally , he is still overwhelm"
+ },
+ {
+  "id": "B0059",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.125",
+  "prop": "the text lacks overt politeness markers such as \"please\" or \"thank you.\"",
+  "src": "You may not remember doing this but, you erased a page entitled, Earl Newton.  Why did you do it?"
+ },
+ {
+  "id": "B0060",
+  "combo": "llm_gpt5mini",
+  "score": "9",
+  "cov": "0.2",
+  "prop": "the text directly addresses another person using \"you\".",
+  "src": "Are you calling me a vandal for visiting your user page?  Or am I just <url>?"
+ },
+ {
+  "id": "B0061",
+  "combo": "llm_gptoss",
+  "score": "3",
+  "cov": "1.0",
+  "prop": "the text discusses the Black Lives Matter protests.",
+  "src": "Black Lives Matter protests led many people to want to do something useful to reduce racial injustice. Racial justice groups are being flooded with money.  Big companies made multimillion-dollar donations.  \"Bad idea,\" says Black radio host Larry Elder in my new video.  \"It is condescending... and n"
+ },
+ {
+  "id": "B0062",
+  "combo": "llm_gptoss",
+  "score": "3",
+  "cov": "0.333",
+  "prop": "the text frames the expansion of marriage rights as a positive development.",
+  "src": "The U.S. Supreme Court directly confronts the question of gay marriage this week with a whopping 2 1/2 hours of oral argument , accompanied by plenty of prognostication afterward about the expected results . It wo n't be until June that we learn how the issue is settled nationally . In the meantime "
+ },
+ {
+  "id": "B0063",
+  "combo": "llm_gptoss",
+  "score": "2",
+  "cov": "1.0",
+  "prop": "the text discusses the use of Thai forces.",
+  "src": "requested that the group remain for a general review of the problem. It was pointed out that the balance of forces in Laos generally favored the Pathet Lao with their Viet Minh cadres but General :: you asked for my advice regarding further action in Laos. I believe we should accept Bill Bundy's rec"
+ },
+ {
+  "id": "B0064",
+  "combo": "llm_gptoss",
+  "score": "2",
+  "cov": "0.857",
+  "prop": "the text reports the death threat comment as a violation of community guidelines.",
+  "src": "India, July 3 -- Amid row over the 'outsider versus insider' debate in the wake of Sushant Singh Rajput's death, Bollywood actress Sonam Kapoor had restricted her comments section on Instagram.  Sonam, who comes from a family of Bollywood producers and actors, has been sharing screenshots of the exp"
+ },
+ {
+  "id": "B0065",
+  "combo": "llm_gptoss",
+  "score": "3",
+  "cov": "0.2",
+  "prop": "the text references a subculture (alt-lite) known for hate elements.",
+  "src": " the alt-lite tought they were dissociating themselves from a dead weight that was  \" bad optics \" \" . lol \""
+ },
+ {
+  "id": "B0066",
+  "combo": "llm_gptoss",
+  "score": "3",
+  "cov": "0.167",
+  "prop": "the text could lead a reader to infer that the expert\u2019s opinion is credible.",
+  "src": "Climate Bill will not deliver desired cut in emissions, says expert"
+ },
+ {
+  "id": "B0067",
+  "combo": "llm_gptoss",
+  "score": "2",
+  "cov": "0.5",
+  "prop": "the text primarily discusses military attributes of the adversary.",
+  "src": "agreed. General :: remarked that we are risking the same thing with an unsuccessful small convoy. At this point General :: , at the president'92s request, then pointed out some of the military actions which are being taken. He emphasized that much planning is being conducted, both in the Pentagon an"
+ },
+ {
+  "id": "B0068",
+  "combo": "llm_gptoss",
+  "score": "2",
+  "cov": "0.25",
+  "prop": "the text may reference a person or group (if \"Rael\" is a name).",
+  "src": "It's not rael"
+ },
+ {
+  "id": "B0069",
+  "combo": "llm_gptoss",
+  "score": "3",
+  "cov": "0.25",
+  "prop": "the text is critical of the Obama administration's response.",
+  "src": "The Islamic State terrorist army is collecting an increasing number of followers outside its home in Syria and Iraq in what is shaping up as a global enterprise to commit mass killings and destabilize governments . In Libya alone , there are at least six Islamic State-aligned terrorist cells , accor"
+ },
+ {
+  "id": "B0070",
+  "combo": "llm_gptoss",
+  "score": "2",
+  "cov": "0.2",
+  "prop": "the text portrays these organizations as secular or left\u2011leaning.",
+  "src": "As the debate around religious freedom heats up across the country , one group has become increasingly central to the conversation : Atheists . Earlier this month , lawmakers in Madison , Wis. voted to give atheists the same protections for employment , housing , and public accommodations as other g"
+ },
+ {
+  "id": "B0071",
+  "combo": "llm_gptoss",
+  "score": "7",
+  "cov": "1.0",
+  "prop": "the text mentions the need for a coalition.",
+  "src": "suggested that the pessimistic French reports from Saigon might be designed as a build-up to exaggerate the extent of their final victory. Governor SPLIT replied in the affirmative, and said that the whole operation was obviously a Vietminh preparation for the Geneva Conference. Secretary SPLIT adde"
+ },
+ {
+  "id": "B0072",
+  "combo": "llm_gptoss",
+  "score": "7",
+  "cov": "0.667",
+  "prop": "the text compares New\u202fZealand's gun laws to those of Australia.",
+  "src": "MT SOMERS , New Zealand ( \u2588\u2588\u2588 ) - Mike Salvesen was working on his farm in the foothills of New Zealand \u2019 s Southern Alps last Friday when his phone began pinging with news of a tragedy unfolding about 110 km ( 70 miles ) away in Christchurch . Mike Salvesen works in his yard on his farm at Mt Somer"
+ },
+ {
+  "id": "B0073",
+  "combo": "llm_gptoss",
+  "score": "7",
+  "cov": "0.8",
+  "prop": "the text states that this chemical death creates inflammation.",
+  "src": "chemical death of cancer cells creates inflammation which feeds cancer growth yet another study links chemotherapy to spread of cancer."
+ },
+ {
+  "id": "B0074",
+  "combo": "llm_gptoss",
+  "score": "7",
+  "cov": "0.333",
+  "prop": "the text discusses content moderation rules and practices of a social media platform.",
+  "src": "Over the past few years, the QAnon movement, a baseless conspiracy theory referring to the belief in a cabal of deep state leftist pedophiles, has gained tremendous traction - and extremist researchers believe it's largely been due to social platforms turning a blind eye to such content.  That seems"
+ },
+ {
+  "id": "B0075",
+  "combo": "llm_gptoss",
+  "score": "7",
+  "cov": "0.8",
+  "prop": "the text mentions options for action such as mining harbors.",
+  "src": "Admiral Holloway says he is not sure there are any. SPLIT We should not forget that there is a real chance that this is an in-house spat. In that area there have been two discovery wells, drilled by Shell and Mobil. One made a significant discovery. We are talking about 600'96700 million barrels and"
+ },
+ {
+  "id": "B0076",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.8",
+  "prop": "the text quotes Schrage saying that assessing the validity of content is a \"pretty damn scary role to play.\"",
+  "src": "The utopian dream of the Internet as a place to connect the world and share ideas appears to have found its nemesis not in censorship , as some early Web pioneers feared , but in the proliferation of fake news , an even more pernicious form of misinformation , perfectly designed to take advantage of"
+ },
+ {
+  "id": "B0077",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "1.0",
+  "prop": "the text includes a URL (http://t.co/mnAeA7j7fY).",
+  "src": "Original post: BREAKING: At least 10 killed in shooting at French satirical newspaper Charlie Hebdo, Paris prosecutor's office says. http://t.co/mnAeA7j7fY  Reply: @cnni curly wurlys are so much nicer than half avocados dont u think?"
+ },
+ {
+  "id": "B0078",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.8",
+  "prop": "the text proposes considering the feasibility of providing air or ship escort for potentially threatened vessels.",
+  "src": "Safeguarding of Freedom of Navigation in the Caribbean for Third Country Flag Vessels Engaged in Commercial Pursuits F. It is assumed that Soviet armed forces in the general area will not take actions in support of Cuba or otherwise become involved. Castro has long taken a most serious view of exile"
+ },
+ {
+  "id": "B0079",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.429",
+  "prop": "the text\u2019s reply does not assess the truthfulness of the original post\u2019s factual claims.",
+  "src": "Original post: BREAKING Charlie Hebdo latest: 11 dead 10 wounded (five critical) two gunmen unaccounted for http://t.co/kjW3uwCV0f http://t.co/9K8ICs97Be  Reply: @smallthunderdog @cpjskippy @Independent  a provocation is an open invitation !!"
+ },
+ {
+  "id": "B0080",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.2",
+  "prop": "the text uses the term \u201cbullshit\u201d multiple times.",
+  "src": "I can\"t believe that AJ+ is so closed minded media. It just made this news from nothing and made lots of bullshit. Saudi Arabia are not attacking Yemen, Saudia arabia is attacking ISIS in Yemen. Yemen people are living among Saudi cities and there are millions of them there. If Saudi Arabia was actu"
+ },
+ {
+  "id": "B0081",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.167",
+  "prop": "the text does not take an explicit stance beyond reporting the events.",
+  "src": "President Donald Trump leaves the United States today for his first overseas trip as commander-in-chief , with a full itinerary of stops throughout the Middle East and Europe . His trip begins Friday with a stop in Saudi Arabia , followed by planned visits to Israel and the Vatican . Trump will late"
+ },
+ {
+  "id": "B0082",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.182",
+  "prop": "the text asks factual questions about whether an article passes certain URLs and whether it can be linked from another URL.",
+  "src": "On a different subject, does this article pass <url> and/or <url>? Could it be linked from <url> as the next album?"
+ },
+ {
+  "id": "B0083",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.833",
+  "prop": "the text notes that President Obama passed the Dodd\u2011Frank bill.",
+  "src": "President Barack Obama called Wall Street executives `` fat cats , '' criticized their bonuses and tried to raise their taxes . The financial-services industry , in turn , has directed a stream of complaints toward the administration , fueling perceptions of a rift between the president and a key 20"
+ },
+ {
+  "id": "B0084",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.667",
+  "prop": "the text includes the phrase \u201creal engine of \u2018Climate Change\u2019\u201d with quotation marks around \u201cClimate Change\u201d.",
+  "src": "SOTT FOCUS: Krakatoa And The Great Comet of 1882: Exploring The Real Engine of 'Climate Change'"
+ },
+ {
+  "id": "B0085",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.4",
+  "prop": "the text includes the term \"once again\", indicating recurrence.",
+  "src": "He has been indef blocked once again. I wonder how long it will take him to come back this time?"
+ },
+ {
+  "id": "B0086",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.167",
+  "prop": "the text asks for likes or retweets to assist in finding these mutuals.",
+  "src": "hi, my main acc @DEMINATIONIST is currently suspended, so please help me find my new mutuals that haven't been followed back from this account by liking or RT-ing \ud83d\udda4 https://t.co/JZ3VXt8SuV"
+ },
+ {
+  "id": "B0087",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.167",
+  "prop": "the text reflects the author\u2019s intent to convey findings from a scientific study.",
+  "src": "Study: Climate change makes a Dust Bowl heat wave more likely"
+ },
+ {
+  "id": "B0088",
+  "combo": "llm_gptoss",
+  "score": "7",
+  "cov": "0.167",
+  "prop": "the text may aim to inform readers about the safety of attending mass.",
+  "src": "Spanish authorities are not arresting people who attend mass."
+ },
+ {
+  "id": "B0089",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.111",
+  "prop": "the text attributes the account blocking to the government rather than to a social media platform.",
+  "src": "The murderous Nigerian govt has blocked our account because we helped provide healthcare to peaceful #EndSARS protesters whom they brutalized and shot at. This is in gross contravention of all conventions and basic humanity. We will meet this evil evil evil govt in court!"
+ },
+ {
+  "id": "B0090",
+  "combo": "llm_gptoss",
+  "score": "9",
+  "cov": "0.2",
+  "prop": "the text points out potential difficulties Sanders may face.",
+  "src": "The left believes Sanders \u2019 s chances have improved , but notes that obstacles still remain . \u201c Sanders reportedly pulled in about $ 34.5 million in the fourth quarter of 2019 , which makes for a total sum of nearly $ 100 million . No one else is even close\u2026 Those who lead in fundraising at this poi"
+ }
+]

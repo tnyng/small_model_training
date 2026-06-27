@@ -1,0 +1,115 @@
+{
+  "combo": "llm_gptoss_ann_gpt41mini",
+  "rows_total": 22551,
+  "rows_dropped": 7618,
+  "rows_review": 106,
+  "rows_kept": 14933,
+  "drop_rate": 0.3378120704181633,
+  "rule_drop_counts": {
+    "coverage_zero": 7311,
+    "template_negative_no_cov": 1470,
+    "too_short_lt5_tokens": 339,
+    "awkward_the_text_is_x": 23,
+    "template_vacuous_tag": 58
+  },
+  "rule_review_counts": {
+    "coverage_low": 106
+  },
+  "bin_distribution_pre": {
+    "1-4": 0.06358919781827857,
+    "5-7": 0.10465167841780852,
+    "8-9": 0.8317591237639129
+  },
+  "bin_distribution_post": {
+    "1-4": 0.04881805397441907,
+    "5-7": 0.09984597870488181,
+    "8-9": 0.8513359673206992
+  },
+  "bin_distribution_pre_counts": {
+    "8-9": 18757,
+    "1-4": 1434,
+    "5-7": 2360
+  },
+  "bin_distribution_post_counts": {
+    "8-9": 12713,
+    "5-7": 1491,
+    "1-4": 729
+  },
+  "by_source_dataset": {
+    "article_bias": {
+      "total": 2010,
+      "drop": 190,
+      "review": 12
+    },
+    "bureaucracies": {
+      "total": 2289,
+      "drop": 148,
+      "review": 7
+    },
+    "gwsd": {
+      "total": 1088,
+      "drop": 376,
+      "review": 10
+    },
+    "hatecot": {
+      "total": 1480,
+      "drop": 717,
+      "review": 12
+    },
+    "implicit_hate": {
+      "total": 1420,
+      "drop": 636,
+      "review": 4
+    },
+    "misinfo_cancer": {
+      "total": 1401,
+      "drop": 538,
+      "review": 14
+    },
+    "misinfo": {
+      "total": 1401,
+      "drop": 516,
+      "review": 14
+    },
+    "polite_stack": {
+      "total": 1486,
+      "drop": 1054,
+      "review": 0
+    },
+    "polite_wiki": {
+      "total": 1501,
+      "drop": 950,
+      "review": 1
+    },
+    "rumoureval2019": {
+      "total": 1566,
+      "drop": 260,
+      "review": 8
+    },
+    "tweets23": {
+      "total": 1284,
+      "drop": 557,
+      "review": 3
+    },
+    "tweets_news": {
+      "total": 1279,
+      "drop": 273,
+      "review": 8
+    },
+    "tweets": {
+      "total": 1272,
+      "drop": 503,
+      "review": 3
+    },
+    "tweetscongress": {
+      "total": 1371,
+      "drop": 496,
+      "review": 2
+    },
+    "yelp": {
+      "total": 1703,
+      "drop": 404,
+      "review": 8
+    }
+  }
+}

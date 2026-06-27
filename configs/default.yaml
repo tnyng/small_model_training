@@ -8,6 +8,8 @@ data:
   train_path: data/train.csv
   validation_path: data/validation.csv
   test_path: data/test.csv
+  fraction: 1.0
+  pair_score_threshold: 0.1
 
 training:
   train_batch_size: 8
@@ -25,6 +27,8 @@ optimizer:
 loss:
   classification_weight: 1.0
   difficulty_weight: 1.0
+  type: mse
+  center_rewards_coeff: 0.0
 
 uncertainty:
   method: none

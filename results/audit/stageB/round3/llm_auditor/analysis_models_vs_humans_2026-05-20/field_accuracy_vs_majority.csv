@@ -1,0 +1,16 @@
+model,field,agree_n,total_n,accuracy_vs_majority
+opus4,claim_well_formed,45,53,0.8490566037735849
+opus4,entailment,36,46,0.782608695652174
+opus4,score_correct,30,50,0.6
+opus4,pass_strict,28,51,0.5490196078431373
+opus4,pass_lenient,29,50,0.58
+sonnet4.6,claim_well_formed,45,53,0.8490566037735849
+sonnet4.6,entailment,24,46,0.5217391304347826
+sonnet4.6,score_correct,36,50,0.72
+sonnet4.6,pass_strict,26,51,0.5098039215686274
+sonnet4.6,pass_lenient,31,50,0.62
+codex_gpt5.4,claim_well_formed,50,53,0.9433962264150944
+codex_gpt5.4,entailment,35,46,0.7608695652173914
+codex_gpt5.4,score_correct,32,50,0.64
+codex_gpt5.4,pass_strict,27,51,0.5294117647058824
+codex_gpt5.4,pass_lenient,30,50,0.6

@@ -1,0 +1,123 @@
+{
+  "combo": "heuristic_ann_gptoss",
+  "rows_total": 1500,
+  "rows_dropped": 746,
+  "rows_review": 25,
+  "rows_kept": 754,
+  "drop_rate": 0.49733333333333335,
+  "rule_drop_counts": {
+    "template_stutter_the_text": 353,
+    "template_negative_no_cov": 34,
+    "coverage_zero": 416,
+    "coverage_low": 16,
+    "reasoning_leak_start": 19,
+    "too_short_lt5_tokens": 17,
+    "awkward_the_text_is_x": 5,
+    "awkward_the_text_that": 2,
+    "ends_with_question": 24,
+    "rhetorical_right_q": 1,
+    "awkward_the_text_wh": 6,
+    "hypothetical_what_if": 1,
+    "template_uses_phrase_no_cov": 28
+  },
+  "rule_review_counts": {
+    "coverage_low": 25
+  },
+  "bin_distribution_pre": {
+    "1-4": 0.18,
+    "5-7": 0.156,
+    "8-9": 0.664
+  },
+  "bin_distribution_post": {
+    "1-4": 0.10212201591511937,
+    "5-7": 0.17108753315649866,
+    "8-9": 0.726790450928382
+  },
+  "bin_distribution_pre_counts": {
+    "5-7": 234,
+    "8-9": 996,
+    "1-4": 270
+  },
+  "bin_distribution_post_counts": {
+    "8-9": 548,
+    "1-4": 77,
+    "5-7": 129
+  },
+  "by_source_dataset": {
+    "article_bias": {
+      "total": 100,
+      "drop": 45,
+      "review": 2
+    },
+    "bureaucracies": {
+      "total": 100,
+      "drop": 37,
+      "review": 0
+    },
+    "gwsd": {
+      "total": 100,
+      "drop": 42,
+      "review": 2
+    },
+    "hatecot": {
+      "total": 100,
+      "drop": 47,
+      "review": 4
+    },
+    "implicit_hate": {
+      "total": 100,
+      "drop": 53,
+      "review": 3
+    },
+    "misinfo_cancer": {
+      "total": 100,
+      "drop": 35,
+      "review": 2
+    },
+    "misinfo": {
+      "total": 100,
+      "drop": 53,
+      "review": 2
+    },
+    "polite_stack": {
+      "total": 100,
+      "drop": 65,
+      "review": 1
+    },
+    "polite_wiki": {
+      "total": 100,
+      "drop": 45,
+      "review": 1
+    },
+    "rumoureval2019": {
+      "total": 100,
+      "drop": 68,
+      "review": 2
+    },
+    "tweets23": {
+      "total": 100,
+      "drop": 61,
+      "review": 1
+    },
+    "tweets_news": {
+      "total": 100,
+      "drop": 52,
+      "review": 1
+    },
+    "tweets": {
+      "total": 100,
+      "drop": 47,
+      "review": 2
+    },
+    "tweetscongress": {
+      "total": 100,
+      "drop": 56,
+      "review": 2
+    },
+    "yelp": {
+      "total": 100,
+      "drop": 40,
+      "review": 0
+    }
+  }
+}

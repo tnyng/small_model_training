@@ -1,0 +1,173 @@
+{
+  "combo": "heuristic_ann_gpt5mini",
+  "parser": "heuristic",
+  "annotator": "gpt-5-mini",
+  "experiments_folder": "annotation_gpt5mini_heuristic",
+  "rows_layer2_total": 22512,
+  "score_extract_failures": 64,
+  "score_distribution_layer2": {
+    "1": 1400,
+    "2": 445,
+    "3": 399,
+    "4": 297,
+    "5": 172,
+    "6": 309,
+    "7": 547,
+    "8": 1097,
+    "9": 17782
+  },
+  "score_bin_distribution": {
+    "1-4": 2541,
+    "5-7": 1028,
+    "8-9": 18879
+  },
+  "claim_shape": {
+    "char_len_mean": 88.42803837953092,
+    "char_len_median": 82.0,
+    "token_len_mean": 14.307036247334755,
+    "token_len_median": 13.0,
+    "token_len_p10": 6,
+    "token_len_p90": 24,
+    "fraction_starts_the_text": 0.9313699360341151,
+    "fraction_uses_phrase": 0.13543887704335467,
+    "fraction_stutter_the_text_the": 0.030072850035536603,
+    "fraction_reasoning_leak": 0.014925373134328358,
+    "fraction_question_mark": 0.0,
+    "fraction_verbatim_substring_of_source": 0.00035536602700781805,
+    "fraction_token_lt5": 0.013948116560056859,
+    "fraction_token_gt50": 0.00044420753375977256,
+    "fraction_coverage_zero": 0.2613717128642502,
+    "fraction_coverage_0_10": 0.030694740582800285
+  },
+  "score_conditional_token_len_mean": {
+    "1": {
+      "n": 1400,
+      "mean_tokens": 10.956428571428571
+    },
+    "2": {
+      "n": 445,
+      "mean_tokens": 13.867415730337079
+    },
+    "3": {
+      "n": 399,
+      "mean_tokens": 13.431077694235588
+    },
+    "4": {
+      "n": 297,
+      "mean_tokens": 15.087542087542088
+    },
+    "5": {
+      "n": 172,
+      "mean_tokens": 14.773255813953488
+    },
+    "6": {
+      "n": 309,
+      "mean_tokens": 15.96116504854369
+    },
+    "7": {
+      "n": 547,
+      "mean_tokens": 16.17367458866545
+    },
+    "8": {
+      "n": 1097,
+      "mean_tokens": 16.341841385597082
+    },
+    "9": {
+      "n": 17782,
+      "mean_tokens": 14.380272185355977
+    }
+  },
+  "exact_dup_extra_copies": 1133,
+  "exact_dup_rate": 0.05032871357498223,
+  "top_repeated_properties": [
+    {
+      "prop": "the text uses the phrase \"please\".",
+      "count": 43
+    },
+    {
+      "prop": "the text doesn't discuss the topic itself, it's irrelevant.",
+      "count": 31
+    },
+    {
+      "prop": "the text should be labeled as relevant.",
+      "count": 24
+    },
+    {
+      "prop": "the text mentions of social media platforms.",
+      "count": 22
+    },
+    {
+      "prop": "the text isn't just an example of moderated content.",
+      "count": 21
+    },
+    {
+      "prop": "the text the possible stances are support, deny, query, or comment.",
+      "count": 18
+    },
+    {
+      "prop": "the text uses the phrase \"please,\".",
+      "count": 16
+    },
+    {
+      "prop": "the text should be labeled as irrelevant.",
+      "count": 16
+    },
+    {
+      "prop": "the text this should be labeled as relevant.",
+      "count": 15
+    },
+    {
+      "prop": "the text explicit hate speech uses specific keywords or directly attacks based on protected characteristics like race, religion, etc.",
+      "count": 13
+    },
+    {
+      "prop": "the text uses the phrase \"before it's news\".",
+      "count": 13
+    },
+    {
+      "prop": "mechanisms like flagging or automated detection.",
+      "count": 13
+    },
+    {
+      "prop": "the text is relevant.",
+      "count": 12
+    },
+    {
+      "prop": "the text without explicit language.",
+      "count": 10
+    },
+    {
+      "prop": "the text uses the phrase \"thank you,\".",
+      "count": 10
+    }
+  ],
+  "unique_text_ids": 1482,
+  "rows_per_dataset": {
+    "article_bias": 2497,
+    "bureaucracies": 1450,
+    "gwsd": 730,
+    "hatecot": 2045,
+    "implicit_hate": 1779,
+    "misinfo_cancer": 1347,
+    "misinfo": 1089,
+    "polite_stack": 1523,
+    "polite_wiki": 1784,
+    "rumoureval2019": 1048,
+    "tweets23": 887,
+    "tweets_news": 1490,
+    "tweets": 1339,
+    "tweetscongress": 1262,
+    "yelp": 2242
+  },
+  "reconciliation_layer1": {
+    "layer1_branch_used": "rulefollower_heuristic_ann_gpt5mini_reg_base",
+    "layer1_present": true,
+    "layer1_total_rows": 22384,
+    "layer1_match_to_layer2": 22384,
+    "rows_in_layer2_not_in_layer1": 128,
+    "score_mismatch_count": 0,
+    "score_mismatch_examples": []
+  },
+  "reasoning_content_nonempty": 0,
+  "reasoning_content_nonempty_rate": 0.0
+}

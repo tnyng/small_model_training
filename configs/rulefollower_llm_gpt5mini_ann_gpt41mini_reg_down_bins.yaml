@@ -1,0 +1,31 @@
+data:
+  score_target_column: score_target
+  train_path: data/rulefollower_llm_gpt5mini_ann_gpt41mini_reg_down_bins/train.csv
+  validation_path: data/rulefollower_llm_gpt5mini_ann_gpt41mini_reg_down_bins/validation.csv
+  test_path: data/rulefollower_llm_gpt5mini_ann_gpt41mini_reg_down_bins/test.csv
+loss:
+  difficulty_weight: 1.0
+  score_weight: 1.0
+model:
+  dropout_prob: 0.1
+  max_length: 256
+  name: answerdotai/ModernBERT-base
+  pooling_strategy: mean
+  score_task_type: regression
+optimizer:
+  learning_rate: 2.0e-05
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+output:
+  dir: outputs/rulefollower_llm_gpt5mini_ann_gpt41mini_reg_down_bins
+training:
+  eval_batch_size: 16
+  gradient_accumulation_steps: 1
+  mixed_precision: 'no'
+  num_epochs: 3
+  seed: 42
+  train_batch_size: 8
+uncertainty:
+  mc_dropout_passes: 10
+  method: none
+  num_ensemble_members: 1

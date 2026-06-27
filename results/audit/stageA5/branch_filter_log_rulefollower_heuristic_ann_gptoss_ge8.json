@@ -1,0 +1,55 @@
+{
+  "branch": "rulefollower_heuristic_ann_gptoss_ge8",
+  "splits": {
+    "train": {
+      "in": 1013,
+      "dropped": 492,
+      "kept": 521
+    },
+    "validation": {
+      "in": 283,
+      "dropped": 152,
+      "kept": 131
+    },
+    "test": {
+      "in": 204,
+      "dropped": 102,
+      "kept": 102
+    }
+  },
+  "rule_drop_counts": {
+    "template_stutter_the_text": 353,
+    "template_negative_no_cov": 34,
+    "coverage_zero": 416,
+    "coverage_low": 16,
+    "reasoning_leak_start": 19,
+    "too_short_lt5_tokens": 17,
+    "awkward_the_text_that": 2,
+    "ends_with_question": 24,
+    "rhetorical_right_q": 1,
+    "awkward_the_text_wh": 6,
+    "hypothetical_what_if": 1,
+    "template_uses_phrase_no_cov": 28,
+    "awkward_the_text_is_x": 5
+  },
+  "bin_pre": {
+    "5-7": 234,
+    "8-9": 996,
+    "1-4": 270
+  },
+  "bin_post": {
+    "8-9": 548,
+    "1-4": 77,
+    "5-7": 129
+  },
+  "bin_pre_pct": {
+    "1-4": 0.18,
+    "5-7": 0.156,
+    "8-9": 0.664
+  },
+  "bin_post_pct": {
+    "1-4": 0.10212201591511937,
+    "5-7": 0.17108753315649866,
+    "8-9": 0.726790450928382
+  }
+}

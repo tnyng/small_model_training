@@ -1,0 +1,13 @@
+combo,metric,n_judged,yes_rate
+heuristic,pass_strict,2,0.0
+heuristic,pass_lenient,2,0.0
+heuristic_ann_gpt41mini,pass_strict,49,0.5714285714285714
+heuristic_ann_gpt41mini,pass_lenient,49,0.5918367346938775
+llm_gpt5mini,pass_strict,2,0.0
+llm_gpt5mini,pass_lenient,2,0.5
+llm_gpt5mini_ann_gpt41mini,pass_strict,47,0.7446808510638298
+llm_gpt5mini_ann_gpt41mini,pass_lenient,47,0.7872340425531915
+llm_gptoss,pass_strict,1,0.0
+llm_gptoss,pass_lenient,1,0.0
+llm_gptoss_ann_gpt41mini,pass_strict,48,0.6666666666666666
+llm_gptoss_ann_gpt41mini,pass_lenient,48,0.7083333333333334

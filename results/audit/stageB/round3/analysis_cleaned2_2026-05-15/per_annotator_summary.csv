@@ -1,0 +1,8 @@
+annotator,rows,blank_rows,notes_rows,cwf_yes,cwf_no,cwf_blank,ent_yes,ent_partial,ent_no,ent_blank,sc_yes,sc_partial,sc_no,sc_blank
+A1_prior,5,0,0,5,0,0,3,2,0,0,1,3,1,0
+A2_prior,5,0,0,5,0,0,4,1,0,0,2,0,3,0
+Alexander,30,0,20,24,2,4,14,11,5,0,18,6,5,1
+Jingwei,30,0,15,20,8,2,19,3,8,0,22,0,8,0
+Tobi,30,1,7,24,5,1,14,9,1,6,18,1,5,6
+Yang,30,0,0,29,1,0,21,1,8,0,27,0,3,0
+Yu,30,0,0,28,2,0,22,5,1,2,21,0,7,2

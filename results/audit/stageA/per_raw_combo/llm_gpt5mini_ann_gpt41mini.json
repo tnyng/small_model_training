@@ -1,0 +1,173 @@
+{
+  "combo": "llm_gpt5mini_ann_gpt41mini",
+  "parser": "llm_gpt5mini",
+  "annotator": "gpt-4.1-mini",
+  "experiments_folder": "annotation_gpt4.1mini_gpt-5-mini",
+  "rows_layer2_total": 19527,
+  "score_extract_failures": 32,
+  "score_distribution_layer2": {
+    "1": 421,
+    "2": 235,
+    "3": 219,
+    "4": 3,
+    "5": 38,
+    "6": 44,
+    "7": 1210,
+    "8": 1822,
+    "9": 15503
+  },
+  "score_bin_distribution": {
+    "1-4": 878,
+    "5-7": 1292,
+    "8-9": 17325
+  },
+  "claim_shape": {
+    "char_len_mean": 84.78772981000665,
+    "char_len_median": 81,
+    "token_len_mean": 13.025707994059507,
+    "token_len_median": 12,
+    "token_len_p10": 7,
+    "token_len_p90": 19,
+    "fraction_starts_the_text": 0.9571362728529728,
+    "fraction_uses_phrase": 0.003431146617503969,
+    "fraction_stutter_the_text_the": 0.0,
+    "fraction_reasoning_leak": 0.0,
+    "fraction_question_mark": 0.0,
+    "fraction_verbatim_substring_of_source": 0.0,
+    "fraction_token_lt5": 0.004711425206124852,
+    "fraction_token_gt50": 0.0,
+    "fraction_coverage_zero": 0.24965432478107236,
+    "fraction_coverage_0_10": 0.011932196445946638
+  },
+  "score_conditional_token_len_mean": {
+    "1": {
+      "n": 421,
+      "mean_tokens": 11.311163895486937
+    },
+    "2": {
+      "n": 235,
+      "mean_tokens": 13.540425531914893
+    },
+    "3": {
+      "n": 219,
+      "mean_tokens": 12.863013698630137
+    },
+    "4": {
+      "n": 3,
+      "mean_tokens": 12.333333333333334
+    },
+    "5": {
+      "n": 38,
+      "mean_tokens": 13
+    },
+    "6": {
+      "n": 44,
+      "mean_tokens": 14.613636363636363
+    },
+    "7": {
+      "n": 1210,
+      "mean_tokens": 12.857851239669422
+    },
+    "8": {
+      "n": 1822,
+      "mean_tokens": 14.076838638858398
+    },
+    "9": {
+      "n": 15503,
+      "mean_tokens": 12.948074566212991
+    }
+  },
+  "exact_dup_extra_copies": 761,
+  "exact_dup_rate": 0.0389716802376197,
+  "top_repeated_properties": [
+    {
+      "prop": "the text does not mention government regulation of online content.",
+      "count": 53
+    },
+    {
+      "prop": "the text does not mention moderation mechanisms such as flagging, labeling, or automated detection.",
+      "count": 27
+    },
+    {
+      "prop": "the text is relevant to the topic of content moderation.",
+      "count": 20
+    },
+    {
+      "prop": "the text does not discuss government regulation of online content.",
+      "count": 18
+    },
+    {
+      "prop": "the text does not reference government regulation of online content.",
+      "count": 17
+    },
+    {
+      "prop": "the text is a tweet.",
+      "count": 16
+    },
+    {
+      "prop": "the text does not mention social media platforms.",
+      "count": 14
+    },
+    {
+      "prop": "the text does not contain misinformation.",
+      "count": 13
+    },
+    {
+      "prop": "the text contains no negative comments or criticisms.",
+      "count": 13
+    },
+    {
+      "prop": "the text is irrelevant to the topic of content moderation.",
+      "count": 11
+    },
+    {
+      "prop": "the text expresses agreement with the opinion that climate change/global warming is a serious concern.",
+      "count": 8
+    },
+    {
+      "prop": "the text is phrased as a question.",
+      "count": 8
+    },
+    {
+      "prop": "the text contains no exclamation marks.",
+      "count": 8
+    },
+    {
+      "prop": "the text contains no sarcasm.",
+      "count": 8
+    },
+    {
+      "prop": "the text lacks explicit politeness markers such as \"please\" or \"thank you.\"",
+      "count": 8
+    }
+  ],
+  "unique_text_ids": 1469,
+  "rows_per_dataset": {
+    "article_bias": 1848,
+    "bureaucracies": 2209,
+    "gwsd": 929,
+    "hatecot": 1167,
+    "implicit_hate": 1123,
+    "misinfo_cancer": 1159,
+    "misinfo": 1160,
+    "polite_stack": 1216,
+    "polite_wiki": 1183,
+    "rumoureval2019": 1336,
+    "tweets23": 1096,
+    "tweets_news": 1406,
+    "tweets": 936,
+    "tweetscongress": 1233,
+    "yelp": 1526
+  },
+  "reconciliation_layer1": {
+    "layer1_branch_used": "rulefollower_llm_gpt5mini_ann_gpt41mini_reg_base",
+    "layer1_present": true,
+    "layer1_total_rows": 19495,
+    "layer1_match_to_layer2": 19495,
+    "rows_in_layer2_not_in_layer1": 32,
+    "score_mismatch_count": 0,
+    "score_mismatch_examples": []
+  },
+  "reasoning_content_nonempty": 0,
+  "reasoning_content_nonempty_rate": 0.0
+}

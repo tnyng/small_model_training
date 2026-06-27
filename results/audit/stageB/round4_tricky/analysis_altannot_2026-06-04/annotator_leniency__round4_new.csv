@@ -1,0 +1,5 @@
+annotator,n,n_judged,strict_pass,strict_rate,sc_yes,sc_no,ent_partial,cwf_no
+Yang,21,18,6,0.333,6,12,5,2
+Yu,21,20,12,0.6,12,8,1,1
+Alexander,21,17,9,0.529,11,9,4,4
+Heejin,21,18,5,0.278,7,8,8,3

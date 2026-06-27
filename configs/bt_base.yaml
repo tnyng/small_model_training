@@ -1,0 +1,42 @@
+# Condition 3: Bradley-Terry objective, single head, MC-dropout UQ
+model:
+  name: answerdotai/ModernBERT-base
+  score_task_type: regression
+  max_length: 256
+  dropout_prob: 0.1
+  pooling_strategy: mean
+
+data:
+  train_path: data/rulefollower_heuristic_ann_gpt41mini_bt_base_200k/train_pairs.csv
+  validation_path: data/rulefollower_heuristic_ann_gpt41mini_bt_base_200k/validation.csv
+  test_path: data/rulefollower_heuristic_ann_gpt41mini_bt_base_200k/test.csv
+  score_target_column: score_target
+  fraction: 1.0
+  pair_score_threshold: 0.1
+
+training:
+  train_batch_size: 16
+  eval_batch_size: 64
+  num_epochs: 5
+  gradient_accumulation_steps: 2
+  mixed_precision: bf16
+  seed: 42
+
+optimizer:
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+
+loss:
+  type: bt
+  score_weight: 1.0
+  difficulty_weight: 0.5
+  center_rewards_coeff: 0.01
+
+uncertainty:
+  method: none
+  num_ensemble_members: 1
+  mc_dropout_passes: 16
+
+output:
+  dir: outputs/bt_base/frac_1.00

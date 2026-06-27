@@ -1,0 +1,265 @@
+{
+  "recall_drop_only": 0.8,
+  "recall_any": 0.85,
+  "noise_sample_size": 20,
+  "rule_hits_on_noise_sample": {
+    "template_stutter_the_text": 10,
+    "awkward_the_text_is_x": 1,
+    "awkward_the_text_wh": 1,
+    "hypothetical_what_if": 1,
+    "ends_with_question": 4,
+    "awkward_the_text_that": 1,
+    "rhetorical_right_q": 1,
+    "coverage_zero": 2,
+    "coverage_low": 3
+  },
+  "noise_sample_detail": [
+    {
+      "sample_id": "N01",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, might",
+      "property": "the text the fact that it's highlighting the disconnect between the leadership and the base, and the failure to fund the wall, could indicate a left bias, as th",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.312
+    },
+    {
+      "sample_id": "N02",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, might",
+      "property": "the text is possible that the article is neutral, but the way it frames the criticism of Ryan and the leadership, and the emphasis on the failure to fund the wa",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "awkward_the_text_is_x"
+      ],
+      "coverage": 0.462
+    },
+    {
+      "sample_id": "N03",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, labels_meta",
+      "property": "the text the labels are based on whether the document discusses political attributes or military attributes of the adversary, which in this case is the Soviet U",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.538
+    },
+    {
+      "sample_id": "N04",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, might",
+      "property": "the text the document also discusses the possibility of the Soviets not withdrawing from Afghanistan and how they might intensify pressure on Pakistan.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.8
+    },
+    {
+      "sample_id": "N05",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, if_reasoning, question_mark",
+      "property": "the text what if \"exaggerated\" could mean something else?.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "awkward_the_text_wh",
+        "hypothetical_what_if",
+        "ends_with_question"
+      ],
+      "coverage": 0.2
+    },
+    {
+      "sample_id": "N06",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, question_mark, rhetorical_right",
+      "property": "the text that would imply that the author doesn't see global warming as a serious concern, right?.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "awkward_the_text_that",
+        "ends_with_question",
+        "rhetorical_right_q"
+      ],
+      "coverage": 0.25
+    },
+    {
+      "sample_id": "N07",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, question_mark",
+      "property": "the text is a strong statement, but does it meet the threshold for hate speech?.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "ends_with_question",
+        "coverage_zero"
+      ],
+      "coverage": 0.0
+    },
+    {
+      "sample_id": "N08",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, might",
+      "property": "The text is about interviews being fake, which might be a criticism of the process or people conducting them.",
+      "drop": false,
+      "review": false,
+      "rules_fired": [],
+      "coverage": 0.286
+    },
+    {
+      "sample_id": "N09",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, maybe",
+      "property": "the text is a statement against the ethno-state, so maybe it's not hate speech.",
+      "drop": false,
+      "review": false,
+      "rules_fired": [],
+      "coverage": 0.2
+    },
+    {
+      "sample_id": "N10",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, if_reasoning",
+      "property": "the text is from the person saying \"you're the racist.\" So the hate speech would be if the tweet is attacking someone based on their race.",
+      "drop": false,
+      "review": true,
+      "rules_fired": [
+        "coverage_low"
+      ],
+      "coverage": 0.091
+    },
+    {
+      "sample_id": "N11",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, if_reasoning, might",
+      "property": "the text the reaction from a reader might be that the government is hiding information, which could be a false narrative if the actual situation allows public c",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.143
+    },
+    {
+      "sample_id": "N12",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, if_reasoning, might",
+      "property": "the text the intent of the author might be to indicate censorship or suppression of discussion on climate issues, which could be a misleading implication if the",
+      "drop": true,
+      "review": true,
+      "rules_fired": [
+        "template_stutter_the_text",
+        "coverage_low"
+      ],
+      "coverage": 0.077
+    },
+    {
+      "sample_id": "N13",
+      "noise_score": "2",
+      "noise_patterns": "if_reasoning, might",
+      "property": "The term \"cancer industry\" might imply that the company is exploiting patients, but the term \"industry\" could be a stretch if it's referring to a single company",
+      "drop": false,
+      "review": false,
+      "rules_fired": [],
+      "coverage": 0.462
+    },
+    {
+      "sample_id": "N14",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, if_reasoning",
+      "property": "the text is making a claim that's factually incorrect if taken at face value.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "coverage_zero"
+      ],
+      "coverage": 0.0
+    },
+    {
+      "sample_id": "N15",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, confusing, might",
+      "property": "the text the first part uses \"confusing\" which might come off as a bit critical.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.125
+    },
+    {
+      "sample_id": "N16",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, confusing, might",
+      "property": "the text the first part uses \"confusing\" which might come off as a bit critical, but the exclamation could be friendly.",
+      "drop": true,
+      "review": true,
+      "rules_fired": [
+        "template_stutter_the_text",
+        "coverage_low"
+      ],
+      "coverage": 0.1
+    },
+    {
+      "sample_id": "N17",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, question_mark",
+      "property": "The text is: \"Where did you learn English?.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "ends_with_question"
+      ],
+      "coverage": 1.0
+    },
+    {
+      "sample_id": "N18",
+      "noise_score": "2",
+      "noise_patterns": "awkward_start, question_mark",
+      "property": "the text the second question is \"How come you're taking on a third language?\" The phrase \"how come\" is a bit informal.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.667
+    },
+    {
+      "sample_id": "N19",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, maybe, question_mark",
+      "property": "the text the user mentions that the cat presented something (maybe a gift?), but it was flopping like a fish, so they spat on it and threw it into the garden be",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.538
+    },
+    {
+      "sample_id": "N20",
+      "noise_score": "3",
+      "noise_patterns": "awkward_start, maybe, question_mark",
+      "property": "the text the user mentions that the cat presented something (maybe a gift?), but it was flopping like a fish, so they spat on it.",
+      "drop": true,
+      "review": false,
+      "rules_fired": [
+        "template_stutter_the_text"
+      ],
+      "coverage": 0.4
+    }
+  ],
+  "spot_check_sample_summary": {
+    "n_total": 150,
+    "n_drop": 77,
+    "n_review": 4,
+    "n_keep": 69
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "branch": "rulefollower_heuristic_ann_gpt41mini_reg_over_bins",
+  "splits": {
+    "train": {
+      "in": 32007,
+      "dropped": 16407,
+      "kept": 15600
+    },
+    "validation": {
+      "in": 3308,
+      "dropped": 1562,
+      "kept": 1746
+    },
+    "test": {
+      "in": 3280,
+      "dropped": 1522,
+      "kept": 1758
+    }
+  },
+  "rule_drop_counts": {
+    "ends_with_question": 583,
+    "template_uses_phrase_no_cov": 861,
+    "coverage_zero": 11292,
+    "template_stutter_the_text": 8599,
+    "reasoning_leak_start": 705,
+    "awkward_the_text_is_x": 140,
+    "too_short_lt5_tokens": 756,
+    "coverage_low": 413,
+    "awkward_the_text_wh": 30,
+    "template_vacuous_tag": 46,
+    "rhetorical_right_q": 10,
+    "hypothetical_what_if": 5,
+    "template_negative_no_cov": 359,
+    "awkward_the_text_that": 10,
+    "too_long_gt50_tokens": 10
+  },
+  "bin_pre": {
+    "1-4": 11883,
+    "5-7": 11607,
+    "8-9": 15105
+  },
+  "bin_post": {
+    "1-4": 4145,
+    "5-7": 6099,
+    "8-9": 8860
+  },
+  "bin_pre_pct": {
+    "1-4": 0.3078896230081617,
+    "5-7": 0.3007384376214536,
+    "8-9": 0.3913719393703848
+  },
+  "bin_post_pct": {
+    "1-4": 0.21697026800670016,
+    "5-7": 0.31925251256281406,
+    "8-9": 0.4637772194304858
+  }
+}

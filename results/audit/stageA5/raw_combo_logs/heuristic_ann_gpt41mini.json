@@ -1,0 +1,125 @@
+{
+  "combo": "heuristic_ann_gpt41mini",
+  "rows_total": 22512,
+  "rows_dropped": 10515,
+  "rows_review": 483,
+  "rows_kept": 11997,
+  "drop_rate": 0.46708422174840086,
+  "rule_drop_counts": {
+    "template_stutter_the_text": 5012,
+    "template_negative_no_cov": 356,
+    "coverage_zero": 5808,
+    "coverage_low": 208,
+    "reasoning_leak_start": 337,
+    "too_short_lt5_tokens": 314,
+    "awkward_the_text_is_x": 56,
+    "too_long_gt50_tokens": 10,
+    "template_uses_phrase_no_cov": 346,
+    "awkward_the_text_that": 8,
+    "ends_with_question": 209,
+    "rhetorical_right_q": 5,
+    "awkward_the_text_wh": 14,
+    "hypothetical_what_if": 2,
+    "template_vacuous_tag": 19
+  },
+  "rule_review_counts": {
+    "coverage_low": 483
+  },
+  "bin_distribution_pre": {
+    "1-4": 0.1776769429245073,
+    "5-7": 0.14582499221495618,
+    "8-9": 0.6764980648605365
+  },
+  "bin_distribution_post": {
+    "1-4": 0.11514392991239049,
+    "5-7": 0.1410095953274927,
+    "8-9": 0.7438464747601168
+  },
+  "bin_distribution_pre_counts": {
+    "8-9": 15207,
+    "5-7": 3278,
+    "1-4": 3994
+  },
+  "bin_distribution_post_counts": {
+    "5-7": 1690,
+    "1-4": 1380,
+    "8-9": 8915
+  },
+  "by_source_dataset": {
+    "article_bias": {
+      "total": 2497,
+      "drop": 1047,
+      "review": 18
+    },
+    "bureaucracies": {
+      "total": 1450,
+      "drop": 580,
+      "review": 8
+    },
+    "gwsd": {
+      "total": 730,
+      "drop": 349,
+      "review": 22
+    },
+    "hatecot": {
+      "total": 2045,
+      "drop": 904,
+      "review": 56
+    },
+    "implicit_hate": {
+      "total": 1779,
+      "drop": 885,
+      "review": 61
+    },
+    "misinfo_cancer": {
+      "total": 1347,
+      "drop": 558,
+      "review": 56
+    },
+    "misinfo": {
+      "total": 1089,
+      "drop": 502,
+      "review": 37
+    },
+    "polite_stack": {
+      "total": 1523,
+      "drop": 814,
+      "review": 32
+    },
+    "polite_wiki": {
+      "total": 1784,
+      "drop": 800,
+      "review": 37
+    },
+    "rumoureval2019": {
+      "total": 1048,
+      "drop": 699,
+      "review": 21
+    },
+    "tweets23": {
+      "total": 887,
+      "drop": 494,
+      "review": 29
+    },
+    "tweets_news": {
+      "total": 1490,
+      "drop": 574,
+      "review": 32
+    },
+    "tweets": {
+      "total": 1339,
+      "drop": 771,
+      "review": 26
+    },
+    "tweetscongress": {
+      "total": 1262,
+      "drop": 666,
+      "review": 31
+    },
+    "yelp": {
+      "total": 2242,
+      "drop": 872,
+      "review": 17
+    }
+  }
+}

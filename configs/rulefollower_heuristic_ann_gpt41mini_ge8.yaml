@@ -1,0 +1,35 @@
+model:
+  name: answerdotai/ModernBERT-base
+  max_length: 256
+  dropout_prob: 0.1
+  pooling_strategy: mean
+
+data:
+  train_path: data/rulefollower_heuristic_ann_gpt41mini_ge8/train.csv
+  validation_path: data/rulefollower_heuristic_ann_gpt41mini_ge8/validation.csv
+  test_path: data/rulefollower_heuristic_ann_gpt41mini_ge8/test.csv
+
+training:
+  train_batch_size: 8
+  eval_batch_size: 16
+  num_epochs: 3
+  gradient_accumulation_steps: 1
+  mixed_precision: "no"
+  seed: 42
+
+optimizer:
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+
+loss:
+  classification_weight: 1.0
+  difficulty_weight: 1.0
+
+uncertainty:
+  method: none
+  num_ensemble_members: 1
+  mc_dropout_passes: 8
+
+output:
+  dir: outputs/rulefollower_heuristic_ann_gpt41mini_ge8

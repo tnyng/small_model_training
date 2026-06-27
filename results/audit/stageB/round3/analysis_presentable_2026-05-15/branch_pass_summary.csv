@@ -1,0 +1,4 @@
+branch,n_judged,strict_pass_rate
+heuristic_ann_gpt41mini,45,0.644
+llm_gpt5mini_ann_gpt41mini,46,0.761
+llm_gptoss_ann_gpt41mini,48,0.667

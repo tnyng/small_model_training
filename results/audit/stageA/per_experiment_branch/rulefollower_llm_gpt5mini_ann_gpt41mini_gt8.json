@@ -1,0 +1,33 @@
+{
+  "branch": "rulefollower_llm_gpt5mini_ann_gpt41mini_gt8",
+  "split_sizes": {
+    "train": 13603,
+    "validation": 2961,
+    "test": 2931
+  },
+  "summary_json_rows": 19495,
+  "split_sanity": {
+    "exact_text_leak_distinct_texts_in_multi_splits": 0,
+    "text_id_leak_distinct_ids_in_multi_splits": 0,
+    "text_leak_pct_of_train": 0.0,
+    "text_id_leak_pct_of_train": 0.0
+  },
+  "within_train_duplication": {
+    "extra_property_dup_rows": 425,
+    "extra_text_dup_rows": 32,
+    "property_dup_rate": 0.031243108137910754,
+    "text_dup_rate": 0.002352422259795633,
+    "claims_per_article_mean": 13.232490272373541,
+    "claims_per_article_median": 12.0,
+    "claims_per_article_max": 56,
+    "n_articles_in_train": 1028
+  },
+  "rebalancing_sanity": {
+    "train_rows": 13603,
+    "max_id_repetition": 1,
+    "n_ids_repeated_gt5": 0,
+    "train_bin_distribution_pct": {},
+    "test_bin_distribution_pct": {},
+    "bin_train_test_gap": {}
+  }
+}

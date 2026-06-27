@@ -1,4 +1,5 @@
 import numpy as np
+import pytest
 
 from modernbert_uq.evaluate import evaluate_predictions
 from modernbert_uq.predict import export_prediction_table
@@ -43,3 +44,26 @@ def test_export_prediction_table_returns_rows_for_calibration():
         "label",
     ]
     assert table.to_dict(orient="records")[0]["id"] == "a"
+
+
+def test_pairwise_accuracy_perfect():
+    from modernbert_uq.evaluate import pairwise_accuracy
+    scores = np.array([0.9, 0.1, 0.8, 0.2])
+    # pairs: (preferred_idx, rejected_idx)
+    pairs = [(0, 1), (2, 3)]  # model scores agree: 0.9>0.1 and 0.8>0.2
+    acc = pairwise_accuracy(scores, pairs)
+    assert acc == pytest.approx(1.0)
+
+
+def test_pairwise_accuracy_chance():
+    from modernbert_uq.evaluate import pairwise_accuracy
+    scores = np.array([0.5, 0.5])
+    pairs = [(0, 1)]
+    acc = pairwise_accuracy(scores, pairs)
+    assert acc == pytest.approx(0.5)  # tie → 0.5
+
+
+def test_pairwise_accuracy_empty():
+    from modernbert_uq.evaluate import pairwise_accuracy
+    acc = pairwise_accuracy(np.array([0.8, 0.2]), [])
+    assert np.isnan(acc)

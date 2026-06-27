@@ -1,0 +1,5 @@
+field,target,target_pair_agr,target_pairs,others_pair_agr,other_pairs
+cwf,Heejin,0.909,22,0.964,28
+ent,Heejin,0.524,21,0.6,25
+sc,Heejin,0.364,22,0.538,26
+ps,Heejin,0.5,18,0.609,23

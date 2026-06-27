@@ -1,0 +1,103 @@
+You are auditing extracted claims against their source text using the same rubric as a human annotation pass.
+
+You will receive a CSV file with these columns:
+- row_id
+- combo
+- score_annotator
+- claim
+- source
+- claim_well_formed
+- entailment
+- score_correct
+- notes
+
+Your job is to fill in these columns for every row:
+- claim_well_formed
+- entailment
+- score_correct
+- notes
+
+Use exactly the following label sets:
+- claim_well_formed: yes or no
+- entailment: yes, partial, or no
+- score_correct: yes or no
+
+Rubric
+
+1. claim_well_formed = yes or no
+
+Ask: is the claim a single atomic proposition with a truth value, readable on its own?
+
+- yes:
+  - a clean atomic claim, even if awkwardly phrased
+  - trivial paraphrases still count as well formed
+
+- no:
+  - sentence fragment
+  - multiple stitched-together claims
+  - scratchpad reasoning
+  - question
+  - hypothetical
+  - unintelligible without the source
+
+2. entailment = yes, partial, or no
+
+Ask: does the source support the claim?
+
+- yes:
+  - the source supports the claim
+  - trivial but faithful paraphrase counts as yes
+  - example: "the text mentions Trump" on a Trump article = yes
+
+- partial:
+  - grounded but distorted
+  - a qualifier was dropped
+  - two distinct source claims were merged
+  - stance or intensity was added
+  - quantifier shifted
+  - the source may support only part of the claim
+  - if you cannot find the exact support quickly and the claim seems loosely grounded, use partial
+
+- no:
+  - claim content is not in the source
+  - claim contradicts the source
+  - claim is hallucinated
+
+3. score_correct = yes or no
+
+Judge this only after deciding entailment.
+Do not use score_annotator as evidence for claim_well_formed or entailment.
+
+Expected score ranges:
+- entailment = yes -> score_annotator should be 8-9
+- entailment = partial -> score_annotator should be 4-7
+- entailment = no -> score_annotator should be 1-3
+
+Then set:
+- score_correct = yes if score_annotator is in the expected range
+- score_correct = no otherwise
+
+4. notes
+
+Optional short note for borderline or noteworthy cases.
+Leave blank if there is nothing special to say.
+
+Important rules
+
+- Judge each field independently.
+- Do not let score_annotator influence claim_well_formed or entailment.
+- Look at the source before judging entailment.
+- If the claim is malformed but you can still judge whether its content is grounded, still provide entailment and score_correct.
+- Be conservative: if the claim adds interpretation, intensity, or unsupported specificity, prefer partial over yes.
+- Use lowercase labels exactly as written above.
+
+Output format
+
+Return the completed CSV with the exact same rows and columns, preserving the original row order.
+Only fill:
+- claim_well_formed
+- entailment
+- score_correct
+- notes
+
+Do not add extra columns.

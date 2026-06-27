@@ -1,0 +1,5 @@
+source_file,sheet_row,row_id,field,raw,cleaned
+Annotation_Alexander.csv,21,tweets_news__75d9dd2099921ee1__claim_18311,score_correct,n/a,
+Annotation_Jingwei.csv,4,tweets_news__f276eaab226cf2ab__claim_18086,claim_well_formed,?,
+Annotation_Jingwei.csv,18,article_bias__64e61a5af04ced88__claim_1213,claim_well_formed,?,
+Annotation_Yang.csv,21,tweets_news__75d9dd2099921ee1__claim_18311,claim_well_formed,ye s,yes

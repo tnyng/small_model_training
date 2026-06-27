@@ -1,0 +1,48 @@
+{
+  "branch": "rulefollower_llm_gpt5mini_ann_gpt5mini_reg_over_exact",
+  "splits": {
+    "train": {
+      "in": 112617,
+      "dropped": 47895,
+      "kept": 64722
+    },
+    "validation": {
+      "in": 2841,
+      "dropped": 706,
+      "kept": 2135
+    },
+    "test": {
+      "in": 2962,
+      "dropped": 841,
+      "kept": 2121
+    }
+  },
+  "rule_drop_counts": {
+    "coverage_zero": 48969,
+    "template_negative_no_cov": 7245,
+    "awkward_the_text_is_x": 312,
+    "template_vacuous_tag": 62,
+    "too_short_lt5_tokens": 482,
+    "template_uses_phrase_no_cov": 1
+  },
+  "bin_pre": {
+    "1-4": 50253,
+    "5-7": 37610,
+    "8-9": 30557
+  },
+  "bin_post": {
+    "1-4": 22195,
+    "5-7": 25144,
+    "8-9": 21639
+  },
+  "bin_pre_pct": {
+    "1-4": 0.42436243877723356,
+    "5-7": 0.3175983786522547,
+    "8-9": 0.2580391825705117
+  },
+  "bin_post_pct": {
+    "1-4": 0.32176925976398274,
+    "5-7": 0.36452202151410595,
+    "8-9": 0.31370871872191136
+  }
+}

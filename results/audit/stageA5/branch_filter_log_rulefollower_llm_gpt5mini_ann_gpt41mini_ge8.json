@@ -1,0 +1,48 @@
+{
+  "branch": "rulefollower_llm_gpt5mini_ann_gpt41mini_ge8",
+  "splits": {
+    "train": {
+      "in": 13603,
+      "dropped": 3436,
+      "kept": 10167
+    },
+    "validation": {
+      "in": 2961,
+      "dropped": 708,
+      "kept": 2253
+    },
+    "test": {
+      "in": 2931,
+      "dropped": 811,
+      "kept": 2120
+    }
+  },
+  "rule_drop_counts": {
+    "coverage_zero": 4854,
+    "template_negative_no_cov": 675,
+    "awkward_the_text_is_x": 35,
+    "too_short_lt5_tokens": 92,
+    "template_vacuous_tag": 16,
+    "template_uses_phrase_no_cov": 1
+  },
+  "bin_pre": {
+    "8-9": 17325,
+    "1-4": 878,
+    "5-7": 1292
+  },
+  "bin_post": {
+    "8-9": 13299,
+    "5-7": 902,
+    "1-4": 339
+  },
+  "bin_pre_pct": {
+    "1-4": 0.045037189022826364,
+    "5-7": 0.06627340343677866,
+    "8-9": 0.8886894075403949
+  },
+  "bin_post_pct": {
+    "1-4": 0.02331499312242091,
+    "5-7": 0.06203576341127923,
+    "8-9": 0.9146492434662998
+  }
+}

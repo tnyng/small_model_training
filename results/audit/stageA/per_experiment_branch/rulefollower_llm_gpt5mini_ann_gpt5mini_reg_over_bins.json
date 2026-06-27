@@ -1,0 +1,57 @@
+{
+  "branch": "rulefollower_llm_gpt5mini_ann_gpt5mini_reg_over_bins",
+  "split_sizes": {
+    "train": 38412,
+    "validation": 2841,
+    "test": 2962
+  },
+  "summary_json_rows": 44215,
+  "split_sanity": {
+    "exact_text_leak_distinct_texts_in_multi_splits": 0,
+    "text_id_leak_distinct_ids_in_multi_splits": 0,
+    "text_leak_pct_of_train": 0.0,
+    "text_id_leak_pct_of_train": 0.0
+  },
+  "within_train_duplication": {
+    "extra_property_dup_rows": 25333,
+    "extra_text_dup_rows": 24945,
+    "property_dup_rate": 0.6595074455899198,
+    "text_dup_rate": 0.6494064354889098,
+    "claims_per_article_mean": 37.7328094302554,
+    "claims_per_article_median": 15.0,
+    "claims_per_article_max": 349,
+    "n_articles_in_train": 1018
+  },
+  "rebalancing_sanity": {
+    "train_rows": 38412,
+    "max_id_repetition": 84,
+    "n_ids_repeated_gt5": 695,
+    "train_bin_distribution_pct": {
+      "1-4": 0.3333333333333333,
+      "5-7": 0.3333333333333333,
+      "8-9": 0.3333333333333333
+    },
+    "test_bin_distribution_pct": {
+      "8-9": 0.9358541525995948,
+      "1-4": 0.05097906819716408,
+      "5-7": 0.013166779203241054
+    },
+    "bin_train_test_gap": {
+      "1-4": {
+        "train_pct": 0.3333333333333333,
+        "test_pct": 0.05097906819716408,
+        "abs_gap": 0.28235426513616924
+      },
+      "8-9": {
+        "train_pct": 0.3333333333333333,
+        "test_pct": 0.9358541525995948,
+        "abs_gap": 0.6025208192662614
+      },
+      "5-7": {
+        "train_pct": 0.3333333333333333,
+        "test_pct": 0.013166779203241054,
+        "abs_gap": 0.32016655413009226
+      }
+    }
+  }
+}

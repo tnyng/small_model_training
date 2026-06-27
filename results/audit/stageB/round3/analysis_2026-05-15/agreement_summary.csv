@@ -1,0 +1,4 @@
+field,items_with_2plus_labels,mean_pairwise_observed_agreement,complete_items,fleiss_kappa_complete_items
+claim_well_formed,48,0.8020833333333334,52,0.3832529172124548
+entailment,46,0.6304347826086957,47,0.3897083814832438
+score_correct,46,0.717391304347826,47,0.37853997040831316

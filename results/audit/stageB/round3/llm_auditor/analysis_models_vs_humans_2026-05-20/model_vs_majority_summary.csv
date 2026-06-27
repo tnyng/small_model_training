@@ -1,0 +1,4 @@
+model,n_rows,claim_well_formed_maj_agree_n,claim_well_formed_maj_total,claim_well_formed_maj_acc,entailment_maj_agree_n,entailment_maj_total,entailment_maj_acc,score_correct_maj_agree_n,score_correct_maj_total,score_correct_maj_acc,pass_strict_maj_agree_n,pass_strict_maj_total,pass_strict_maj_acc,pass_lenient_maj_agree_n,pass_lenient_maj_total,pass_lenient_maj_acc,triple_exact_n,triple_exact_total,triple_exact_acc
+opus4,53,45,53,0.8491,36,46,0.7826,30,50,0.6,28,51,0.549,29,50,0.58,21,45,0.4667
+sonnet4.6,53,45,53,0.8491,24,46,0.5217,36,50,0.72,26,51,0.5098,31,50,0.62,18,45,0.4
+codex_gpt5.4,53,50,53,0.9434,35,46,0.7609,32,50,0.64,27,51,0.5294,30,50,0.6,23,45,0.5111

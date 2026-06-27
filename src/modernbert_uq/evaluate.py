@@ -7,18 +7,34 @@ import numpy as np
 
 def evaluate_predictions(
     labels: np.ndarray,
-    probabilities: np.ndarray,
-    logits: np.ndarray,
+    score_predictions: np.ndarray | None = None,
+    raw_score_outputs: np.ndarray | None = None,
     difficulty_predictions: np.ndarray | None = None,
     difficulty_targets: np.ndarray | None = None,
+    score_task_type: str = "classification",
+    probabilities: np.ndarray | None = None,
+    logits: np.ndarray | None = None,
 ) -> dict[str, dict[str, float]]:
     labels = np.asarray(labels, dtype=float)
-    probabilities = np.asarray(probabilities, dtype=float)
-    logits = np.asarray(logits, dtype=float)
+    if score_predictions is None:
+        score_predictions = probabilities
+    if raw_score_outputs is None:
+        raw_score_outputs = logits
+    if score_predictions is None or raw_score_outputs is None:
+        raise ValueError("Both score predictions/probabilities and raw score outputs/logits are required")
+    score_predictions = np.asarray(score_predictions, dtype=float)
+    raw_score_outputs = np.asarray(raw_score_outputs, dtype=float)
 
-    results = {
-        "classification": compute_classification_metrics(labels, probabilities, logits)
-    }
+    if score_task_type == "classification":
+        results = {
+            "classification": compute_classification_metrics(
+                labels, score_predictions, raw_score_outputs
+            )
+        }
+    elif score_task_type == "regression":
+        results = {"score_regression": compute_regression_metrics(labels, score_predictions)}
+    else:
+        raise ValueError(f"Unsupported score_task_type: {score_task_type}")
     if difficulty_predictions is not None and difficulty_targets is not None:
         results["difficulty"] = compute_regression_metrics(
             np.asarray(difficulty_targets, dtype=float),
@@ -54,7 +70,59 @@ def compute_regression_metrics(
     rmse = math.sqrt(float(np.mean(np.square(errors))))
     mae = float(np.mean(np.abs(errors)))
     correlation = float(np.corrcoef(targets, predictions)[0, 1])
-    return {"rmse": rmse, "mae": mae, "pearson": correlation}
+    spearman = float(compute_spearman(targets, predictions))
+    return {"rmse": rmse, "mae": mae, "pearson": correlation, "spearman": spearman}
+
+
+def compute_spearman(targets: np.ndarray, predictions: np.ndarray) -> float:
+    if len(targets) == 0:
+        return float("nan")
+    target_ranks = rankdata(targets)
+    prediction_ranks = rankdata(predictions)
+    return float(np.corrcoef(target_ranks, prediction_ranks)[0, 1])
+
+
+def pairwise_accuracy(
+    scores: np.ndarray,
+    pairs: list[tuple[int, int]],
+) -> float:
+    """Fraction of pairs where the preferred item has a higher predicted score.
+
+    Args:
+        scores: 1-D array of predicted scores, one per example.
+        pairs: list of (preferred_idx, rejected_idx) index pairs.
+
+    Returns:
+        Accuracy in [0, 1]; ties count as 0.5. Returns NaN for empty pairs.
+    """
+    if not pairs:
+        return float("nan")
+    scores = np.asarray(scores, dtype=float)
+    correct = 0.0
+    for preferred_idx, rejected_idx in pairs:
+        diff = scores[preferred_idx] - scores[rejected_idx]
+        if diff > 0:
+            correct += 1.0
+        elif diff == 0:
+            correct += 0.5
+    return float(correct / len(pairs))
+
+
+def rankdata(values: np.ndarray) -> np.ndarray:
+    values = np.asarray(values, dtype=float)
+    order = np.argsort(values, kind="mergesort")
+    ranks = np.empty(len(values), dtype=float)
+    index = 0
+    while index < len(values):
+        start = index
+        current = values[order[index]]
+        while index + 1 < len(values) and values[order[index + 1]] == current:
+            index += 1
+        end = index
+        average_rank = (start + end) / 2.0 + 1.0
+        ranks[order[start : end + 1]] = average_rank
+        index += 1
+    return ranks
 
 
 def expected_calibration_error(

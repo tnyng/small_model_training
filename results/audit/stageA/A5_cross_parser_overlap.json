@@ -1,0 +1,128 @@
+{
+  "heuristic_ann_gpt41mini \u2229 heuristic_ann_gpt5mini": {
+    "size": 1482,
+    "a_size": 1482,
+    "b_size": 1482,
+    "jaccard": 1.0
+  },
+  "heuristic_ann_gpt41mini \u2229 heuristic_ann_gptoss": {
+    "size": 119,
+    "a_size": 1482,
+    "b_size": 119,
+    "jaccard": 0.08029689608636977
+  },
+  "heuristic_ann_gpt41mini \u2229 llm_gpt5mini_ann_gpt41mini": {
+    "size": 1469,
+    "a_size": 1482,
+    "b_size": 1469,
+    "jaccard": 0.9912280701754386
+  },
+  "heuristic_ann_gpt41mini \u2229 llm_gpt5mini_ann_gpt5mini": {
+    "size": 1469,
+    "a_size": 1482,
+    "b_size": 1469,
+    "jaccard": 0.9912280701754386
+  },
+  "heuristic_ann_gpt41mini \u2229 llm_gptoss_ann_gpt41mini": {
+    "size": 1482,
+    "a_size": 1482,
+    "b_size": 1482,
+    "jaccard": 1.0
+  },
+  "heuristic_ann_gpt41mini \u2229 llm_gptoss_ann_gptoss": {
+    "size": 111,
+    "a_size": 1482,
+    "b_size": 111,
+    "jaccard": 0.07489878542510121
+  },
+  "heuristic_ann_gpt5mini \u2229 heuristic_ann_gptoss": {
+    "size": 119,
+    "a_size": 1482,
+    "b_size": 119,
+    "jaccard": 0.08029689608636977
+  },
+  "heuristic_ann_gpt5mini \u2229 llm_gpt5mini_ann_gpt41mini": {
+    "size": 1469,
+    "a_size": 1482,
+    "b_size": 1469,
+    "jaccard": 0.9912280701754386
+  },
+  "heuristic_ann_gpt5mini \u2229 llm_gpt5mini_ann_gpt5mini": {
+    "size": 1469,
+    "a_size": 1482,
+    "b_size": 1469,
+    "jaccard": 0.9912280701754386
+  },
+  "heuristic_ann_gpt5mini \u2229 llm_gptoss_ann_gpt41mini": {
+    "size": 1482,
+    "a_size": 1482,
+    "b_size": 1482,
+    "jaccard": 1.0
+  },
+  "heuristic_ann_gpt5mini \u2229 llm_gptoss_ann_gptoss": {
+    "size": 111,
+    "a_size": 1482,
+    "b_size": 111,
+    "jaccard": 0.07489878542510121
+  },
+  "heuristic_ann_gptoss \u2229 llm_gpt5mini_ann_gpt41mini": {
+    "size": 119,
+    "a_size": 119,
+    "b_size": 1469,
+    "jaccard": 0.08100748808713411
+  },
+  "heuristic_ann_gptoss \u2229 llm_gpt5mini_ann_gpt5mini": {
+    "size": 119,
+    "a_size": 119,
+    "b_size": 1469,
+    "jaccard": 0.08100748808713411
+  },
+  "heuristic_ann_gptoss \u2229 llm_gptoss_ann_gpt41mini": {
+    "size": 119,
+    "a_size": 119,
+    "b_size": 1482,
+    "jaccard": 0.08029689608636977
+  },
+  "heuristic_ann_gptoss \u2229 llm_gptoss_ann_gptoss": {
+    "size": 99,
+    "a_size": 119,
+    "b_size": 111,
+    "jaccard": 0.7557251908396947
+  },
+  "llm_gpt5mini_ann_gpt41mini \u2229 llm_gpt5mini_ann_gpt5mini": {
+    "size": 1469,
+    "a_size": 1469,
+    "b_size": 1469,
+    "jaccard": 1.0
+  },
+  "llm_gpt5mini_ann_gpt41mini \u2229 llm_gptoss_ann_gpt41mini": {
+    "size": 1469,
+    "a_size": 1469,
+    "b_size": 1482,
+    "jaccard": 0.9912280701754386
+  },
+  "llm_gpt5mini_ann_gpt41mini \u2229 llm_gptoss_ann_gptoss": {
+    "size": 111,
+    "a_size": 1469,
+    "b_size": 111,
+    "jaccard": 0.07556160653505786
+  },
+  "llm_gpt5mini_ann_gpt5mini \u2229 llm_gptoss_ann_gpt41mini": {
+    "size": 1469,
+    "a_size": 1469,
+    "b_size": 1482,
+    "jaccard": 0.9912280701754386
+  },
+  "llm_gpt5mini_ann_gpt5mini \u2229 llm_gptoss_ann_gptoss": {
+    "size": 111,
+    "a_size": 1469,
+    "b_size": 111,
+    "jaccard": 0.07556160653505786
+  },
+  "llm_gptoss_ann_gpt41mini \u2229 llm_gptoss_ann_gptoss": {
+    "size": 111,
+    "a_size": 1482,
+    "b_size": 111,
+    "jaccard": 0.07489878542510121
+  }
+}

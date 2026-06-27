@@ -1,0 +1,173 @@
+{
+  "combo": "heuristic_ann_gptoss",
+  "parser": "heuristic",
+  "annotator": "gpt-oss",
+  "experiments_folder": "annotation_gpt-oss_heuristic",
+  "rows_layer2_total": 1500,
+  "score_extract_failures": 0,
+  "score_distribution_layer2": {
+    "1": 106,
+    "2": 90,
+    "3": 38,
+    "4": 36,
+    "5": 48,
+    "6": 58,
+    "7": 128,
+    "8": 233,
+    "9": 763
+  },
+  "score_bin_distribution": {
+    "1-4": 270,
+    "5-7": 234,
+    "8-9": 996
+  },
+  "claim_shape": {
+    "char_len_mean": 87.17733333333334,
+    "char_len_median": 79.0,
+    "token_len_mean": 14.338666666666667,
+    "token_len_median": 13.0,
+    "token_len_p10": 6,
+    "token_len_p90": 24,
+    "fraction_starts_the_text": 0.9453333333333334,
+    "fraction_uses_phrase": 0.13666666666666666,
+    "fraction_stutter_the_text_the": 0.026,
+    "fraction_reasoning_leak": 0.012666666666666666,
+    "fraction_question_mark": 0.0,
+    "fraction_verbatim_substring_of_source": 0.0,
+    "fraction_token_lt5": 0.011333333333333334,
+    "fraction_token_gt50": 0.0,
+    "fraction_coverage_zero": 0.2793333333333333,
+    "fraction_coverage_0_10": 0.027333333333333334
+  },
+  "score_conditional_token_len_mean": {
+    "1": {
+      "n": 106,
+      "mean_tokens": 10.679245283018869
+    },
+    "2": {
+      "n": 90,
+      "mean_tokens": 12.61111111111111
+    },
+    "3": {
+      "n": 38,
+      "mean_tokens": 14.210526315789474
+    },
+    "4": {
+      "n": 36,
+      "mean_tokens": 15.194444444444445
+    },
+    "5": {
+      "n": 48,
+      "mean_tokens": 15.75
+    },
+    "6": {
+      "n": 58,
+      "mean_tokens": 17.5
+    },
+    "7": {
+      "n": 128,
+      "mean_tokens": 16.421875
+    },
+    "8": {
+      "n": 233,
+      "mean_tokens": 17.605150214592275
+    },
+    "9": {
+      "n": 763,
+      "mean_tokens": 13.34076015727392
+    }
+  },
+  "exact_dup_extra_copies": 15,
+  "exact_dup_rate": 0.01,
+  "top_repeated_properties": [
+    {
+      "prop": "the text the possible stances are support, deny, query, or comment.",
+      "count": 4
+    },
+    {
+      "prop": "the text doesn't discuss the topic itself, it's irrelevant.",
+      "count": 4
+    },
+    {
+      "prop": "the text isn't just an example of moderated content.",
+      "count": 3
+    },
+    {
+      "prop": "the text doesn't contain misinformation.",
+      "count": 2
+    },
+    {
+      "prop": "the text uses the phrase \"please\".",
+      "count": 2
+    },
+    {
+      "prop": "the text is a bit ambiguous.",
+      "count": 2
+    },
+    {
+      "prop": "the text uses the phrase \"please,\".",
+      "count": 2
+    },
+    {
+      "prop": "the text the labels are 0 for support, 1 for deny, 2 for query, and 3 for comment.",
+      "count": 2
+    },
+    {
+      "prop": "the text mentions of flagging.",
+      "count": 2
+    },
+    {
+      "prop": "the text should be labeled as relevant.",
+      "count": 2
+    },
+    {
+      "prop": "the text the article mentions his connections to cities like quetta and karachi, which are associated with militant groups.",
+      "count": 1
+    },
+    {
+      "prop": "the text mentions his connections to cities like quetta and karachi.",
+      "count": 1
+    },
+    {
+      "prop": "the text the article mentions his connections to cities like quetta.",
+      "count": 1
+    },
+    {
+      "prop": "karachi, which are associated with militant groups.",
+      "count": 1
+    },
+    {
+      "prop": "the text this seems balanced, not taking a side but presenting facts.",
+      "count": 1
+    }
+  ],
+  "unique_text_ids": 119,
+  "rows_per_dataset": {
+    "article_bias": 100,
+    "bureaucracies": 100,
+    "gwsd": 100,
+    "hatecot": 100,
+    "implicit_hate": 100,
+    "misinfo_cancer": 100,
+    "misinfo": 100,
+    "polite_stack": 100,
+    "polite_wiki": 100,
+    "rumoureval2019": 100,
+    "tweets23": 100,
+    "tweets_news": 100,
+    "tweets": 100,
+    "tweetscongress": 100,
+    "yelp": 100
+  },
+  "reconciliation_layer1": {
+    "layer1_branch_used": "rulefollower_heuristic_ann_gptoss_ge8",
+    "layer1_present": true,
+    "layer1_total_rows": 1500,
+    "layer1_match_to_layer2": 1500,
+    "rows_in_layer2_not_in_layer1": 0,
+    "score_mismatch_count": 0,
+    "score_mismatch_examples": []
+  },
+  "reasoning_content_nonempty": 1500,
+  "reasoning_content_nonempty_rate": 1.0
+}

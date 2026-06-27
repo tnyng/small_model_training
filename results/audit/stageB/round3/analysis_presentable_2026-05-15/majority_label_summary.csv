@@ -1,0 +1,17 @@
+field,majority_label,count
+claim_well_formed,no,4
+claim_well_formed,yes,49
+entailment,TIE,7
+entailment,no,6
+entailment,partial,8
+entailment,yes,32
+score_correct,TIE,3
+score_correct,no,7
+score_correct,partial,1
+score_correct,yes,42
+pass_strict,TIE,2
+pass_strict,no,15
+pass_strict,yes,36
+pass_lenient,TIE,3
+pass_lenient,no,12
+pass_lenient,yes,38

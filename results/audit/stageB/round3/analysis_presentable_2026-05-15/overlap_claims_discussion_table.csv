@@ -1,0 +1,16 @@
+row_id,annotator,round_source,claim_well_formed,entailment,score_correct,notes
+B0004,Yang,prior_overlap,yes,partial,partial,
+B0004,Yu,prior_overlap,yes,yes,no,
+B0004,Alexander,round3,,partial,no,should be a higher score
+B0015,Yang,prior_overlap,yes,yes,yes,
+B0015,Yu,prior_overlap,yes,yes,yes,
+B0015,Tobi,round3,no,,,
+B0032,Yang,prior_overlap,yes,yes,no,
+B0032,Yu,prior_overlap,yes,yes,no,
+B0032,Tobi,round3,yes,yes,no,are we good with more complicated claims?
+B0033,Yang,prior_overlap,yes,yes,partial,
+B0033,Yu,prior_overlap,yes,partial,yes,
+B0033,Alexander,round3,yes,yes,partial,"difficult one; the claim makes it seem like that's all the text is doing, but it is strictly true that the text contains this claim. Should be a 6 or 7"
+B0065,Yang,prior_overlap,yes,partial,partial,
+B0065,Yu,prior_overlap,yes,yes,no,
+B0065,Jingwei,round3,yes,yes,no,Interesting

@@ -1,0 +1,173 @@
+{
+  "combo": "llm_gptoss_ann_gpt41mini",
+  "parser": "llm_gptoss",
+  "annotator": "gpt-4.1-mini",
+  "experiments_folder": "annotation_gpt4.1mini_gpt-oss",
+  "rows_layer2_total": 22551,
+  "score_extract_failures": 0,
+  "score_distribution_layer2": {
+    "1": 368,
+    "2": 594,
+    "3": 464,
+    "4": 8,
+    "5": 108,
+    "6": 77,
+    "7": 2175,
+    "8": 2459,
+    "9": 16298
+  },
+  "score_bin_distribution": {
+    "1-4": 1434,
+    "5-7": 2360,
+    "8-9": 18757
+  },
+  "claim_shape": {
+    "char_len_mean": 69.11507250232806,
+    "char_len_median": 66,
+    "token_len_mean": 10.87486142521396,
+    "token_len_median": 10,
+    "token_len_p10": 6,
+    "token_len_p90": 16,
+    "fraction_starts_the_text": 0.991264245488005,
+    "fraction_uses_phrase": 0.005321271783956366,
+    "fraction_stutter_the_text_the": 0.0,
+    "fraction_reasoning_leak": 0.0,
+    "fraction_question_mark": 0.0,
+    "fraction_verbatim_substring_of_source": 0.0,
+    "fraction_token_lt5": 0.015032592789676733,
+    "fraction_token_gt50": 0.0,
+    "fraction_coverage_zero": 0.3311604806882178,
+    "fraction_coverage_0_10": 0.004700456742494789
+  },
+  "score_conditional_token_len_mean": {
+    "1": {
+      "n": 368,
+      "mean_tokens": 9.942934782608695
+    },
+    "2": {
+      "n": 594,
+      "mean_tokens": 11.06060606060606
+    },
+    "3": {
+      "n": 464,
+      "mean_tokens": 10.640086206896552
+    },
+    "4": {
+      "n": 8,
+      "mean_tokens": 11.375
+    },
+    "5": {
+      "n": 108,
+      "mean_tokens": 9.88888888888889
+    },
+    "6": {
+      "n": 77,
+      "mean_tokens": 11.402597402597403
+    },
+    "7": {
+      "n": 2175,
+      "mean_tokens": 10.36919540229885
+    },
+    "8": {
+      "n": 2459,
+      "mean_tokens": 11.732818218788125
+    },
+    "9": {
+      "n": 16298,
+      "mean_tokens": 10.837648791262732
+    }
+  },
+  "exact_dup_extra_copies": 1894,
+  "exact_dup_rate": 0.08398740632344463,
+  "top_repeated_properties": [
+    {
+      "prop": "the text is a tweet.",
+      "count": 58
+    },
+    {
+      "prop": "the text does not mention government regulation of online content.",
+      "count": 57
+    },
+    {
+      "prop": "the text does not discuss government regulation of online content.",
+      "count": 36
+    },
+    {
+      "prop": "the text does not mention mechanisms such as flagging, labeling, or automated detection.",
+      "count": 34
+    },
+    {
+      "prop": "the text contains no sarcasm.",
+      "count": 28
+    },
+    {
+      "prop": "the text does not contain sarcasm.",
+      "count": 27
+    },
+    {
+      "prop": "the text does not reference government regulation of online content.",
+      "count": 24
+    },
+    {
+      "prop": "the text is a sentence fragment.",
+      "count": 22
+    },
+    {
+      "prop": "the text does not contain misinformation.",
+      "count": 21
+    },
+    {
+      "prop": "the text is presented as a tweet.",
+      "count": 20
+    },
+    {
+      "prop": "the text does not refer to government regulation of online content.",
+      "count": 19
+    },
+    {
+      "prop": "the text is polite.",
+      "count": 18
+    },
+    {
+      "prop": "the text does not contain hate speech.",
+      "count": 16
+    },
+    {
+      "prop": "the text has a neutral tone.",
+      "count": 16
+    },
+    {
+      "prop": "the text does not contain harsh language.",
+      "count": 16
+    }
+  ],
+  "unique_text_ids": 1482,
+  "rows_per_dataset": {
+    "article_bias": 2010,
+    "bureaucracies": 2289,
+    "gwsd": 1088,
+    "hatecot": 1480,
+    "implicit_hate": 1420,
+    "misinfo_cancer": 1401,
+    "misinfo": 1401,
+    "polite_stack": 1486,
+    "polite_wiki": 1501,
+    "rumoureval2019": 1566,
+    "tweets23": 1284,
+    "tweets_news": 1279,
+    "tweets": 1272,
+    "tweetscongress": 1371,
+    "yelp": 1703
+  },
+  "reconciliation_layer1": {
+    "layer1_branch_used": "rulefollower_llm_gptoss_ann_gpt41mini_ge8",
+    "layer1_present": true,
+    "layer1_total_rows": 22487,
+    "layer1_match_to_layer2": 22487,
+    "rows_in_layer2_not_in_layer1": 64,
+    "score_mismatch_count": 0,
+    "score_mismatch_examples": []
+  },
+  "reasoning_content_nonempty": 0,
+  "reasoning_content_nonempty_rate": 0.0
+}

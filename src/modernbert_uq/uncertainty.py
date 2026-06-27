@@ -13,7 +13,7 @@ def mc_dropout_predict(
     model.eval()
     enable_dropout(model)
 
-    probability_samples = []
+    score_samples = []
     difficulty_samples = []
     with torch.no_grad():
         for _ in range(num_passes):
@@ -21,7 +21,7 @@ def mc_dropout_predict(
                 input_ids=batch["input_ids"],
                 attention_mask=batch.get("attention_mask"),
             )
-            probability_samples.append(torch.sigmoid(outputs.logits_cls))
+            score_samples.append(outputs.score_pred)
             difficulty_samples.append(outputs.difficulty_pred)
 
     if was_training:
@@ -29,7 +29,7 @@ def mc_dropout_predict(
     else:
         model.eval()
 
-    probability_tensor = torch.stack(probability_samples, dim=0)
+    probability_tensor = torch.stack(score_samples, dim=0)
     difficulty_tensor = torch.stack(difficulty_samples, dim=0)
     mean_probability = probability_tensor.mean(dim=0)
     sample_entropy = binary_entropy(probability_tensor)
@@ -38,9 +38,12 @@ def mc_dropout_predict(
 
     return {
         "probability_samples": probability_tensor,
+        "score_samples": probability_tensor,
         "difficulty_samples": difficulty_tensor,
         "mean_probability": mean_probability,
+        "mean_score_prediction": mean_probability,
         "probability_variance": probability_tensor.var(dim=0, unbiased=False),
+        "score_variance": probability_tensor.var(dim=0, unbiased=False),
         "predictive_entropy": predictive_entropy,
         "mutual_information": mutual_information,
         "mean_difficulty": difficulty_tensor.mean(dim=0),

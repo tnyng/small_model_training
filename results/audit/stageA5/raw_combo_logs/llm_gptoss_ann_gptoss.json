@@ -1,0 +1,115 @@
+{
+  "combo": "llm_gptoss_ann_gptoss",
+  "rows_total": 1500,
+  "rows_dropped": 496,
+  "rows_review": 5,
+  "rows_kept": 1004,
+  "drop_rate": 0.33066666666666666,
+  "rule_drop_counts": {
+    "coverage_zero": 488,
+    "template_negative_no_cov": 118,
+    "template_vacuous_tag": 2,
+    "awkward_the_text_is_x": 1,
+    "too_short_lt5_tokens": 10
+  },
+  "rule_review_counts": {
+    "coverage_low": 5
+  },
+  "bin_distribution_pre": {
+    "1-4": 0.06266666666666666,
+    "5-7": 0.09333333333333334,
+    "8-9": 0.844
+  },
+  "bin_distribution_post": {
+    "1-4": 0.054780876494023904,
+    "5-7": 0.10557768924302789,
+    "8-9": 0.8396414342629482
+  },
+  "bin_distribution_pre_counts": {
+    "8-9": 1266,
+    "1-4": 94,
+    "5-7": 140
+  },
+  "bin_distribution_post_counts": {
+    "8-9": 843,
+    "5-7": 106,
+    "1-4": 55
+  },
+  "by_source_dataset": {
+    "article_bias": {
+      "total": 100,
+      "drop": 8,
+      "review": 1
+    },
+    "bureaucracies": {
+      "total": 100,
+      "drop": 2,
+      "review": 0
+    },
+    "gwsd": {
+      "total": 100,
+      "drop": 36,
+      "review": 2
+    },
+    "hatecot": {
+      "total": 100,
+      "drop": 39,
+      "review": 0
+    },
+    "implicit_hate": {
+      "total": 100,
+      "drop": 38,
+      "review": 0
+    },
+    "misinfo_cancer": {
+      "total": 100,
+      "drop": 30,
+      "review": 0
+    },
+    "misinfo": {
+      "total": 100,
+      "drop": 37,
+      "review": 1
+    },
+    "polite_stack": {
+      "total": 100,
+      "drop": 71,
+      "review": 0
+    },
+    "polite_wiki": {
+      "total": 100,
+      "drop": 58,
+      "review": 0
+    },
+    "rumoureval2019": {
+      "total": 100,
+      "drop": 14,
+      "review": 0
+    },
+    "tweets23": {
+      "total": 100,
+      "drop": 53,
+      "review": 0
+    },
+    "tweets_news": {
+      "total": 100,
+      "drop": 33,
+      "review": 1
+    },
+    "tweets": {
+      "total": 100,
+      "drop": 25,
+      "review": 0
+    },
+    "tweetscongress": {
+      "total": 100,
+      "drop": 41,
+      "review": 0
+    },
+    "yelp": {
+      "total": 100,
+      "drop": 11,
+      "review": 0
+    }
+  }
+}

@@ -1,0 +1,20 @@
+annotator,source_file,sheet_row,row_id,claim_well_formed,entailment,score_correct,notes,issues
+Alexander,Annotation_Alexander.csv,16,polite_stack__6159b1d0c6b8109d__claim_11005,no,no,no,hard to score this one,downstream_filled_after_no
+Alexander,Annotation_Alexander.csv,17,bureaucracies__4dd6e895d405ce2a__claim_3443,no,partial,yes,more like a 6 but close,downstream_filled_after_no
+Alexander,Annotation_Alexander.csv,20,rumoureval2019__fc4614f6fdf337b0__claim_14230,partial,yes,yes,"is heursitic working correctly? ""the text"" seems appended incorrectly to the start here",nonstandard_claim_well_formed
+Alexander,Annotation_Alexander.csv,21,tweets_news__75d9dd2099921ee1__claim_18311,partial,no,n/a,is there a bug here? There is nothing in column E,nonstandard_claim_well_formed|nonstandard_score_correct
+Alexander,Annotation_Alexander.csv,27,B0004,partial,partial,no,should be a higher score,nonstandard_claim_well_formed
+Alexander,Annotation_Alexander.csv,29,misinfo__cafc1c58d509a29d__claim_7968,partial,partial,partial,"brings up additional evidence in the parsing ? I think should be in the 4ish range, it's a weird claim though",nonstandard_claim_well_formed
+Jingwei,Annotation_Jingwei.csv,2,tweets_news__7b4785c803530b7d__claim_17751,no,no,yes,,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,3,article_bias__ffd20904aeeeba9d__claim_2232,no,no,yes,,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,4,tweets_news__f276eaab226cf2ab__claim_18086,?,partial,yes,Hard to say it is a claim,nonstandard_claim_well_formed
+Jingwei,Annotation_Jingwei.csv,6,tweets23__465e61fc1bbc5695__claim_16830,no,no,yes,,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,12,hatecot__ccd70a281ef7f4df__claim_6392,no,no,yes,interesting,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,17,article_bias__8cfe116ef745a240__claim_735,no,no,yes,hedging,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,18,article_bias__64e61a5af04ced88__claim_1213,?,no,yes,How was this extracted?,nonstandard_claim_well_formed
+Jingwei,Annotation_Jingwei.csv,21,tweets23__bd648c9d34ffa8cd__claim_17287,no,no,no,,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,24,tweetscongress__9f08bd02587a49f0__claim_20114,no,no,no,,downstream_filled_after_no
+Jingwei,Annotation_Jingwei.csv,26,implicit_hate__9e5124d6f8566539__claim_7691,no,partial,no,,downstream_filled_after_no
+Tobi,Annotation_Tobi.csv,10,yelp__d047556ac397a240__claim_18707,,,,,fully_blank
+Yang,Annotation_Yang.csv,7,misinfo_cancer__dd2dd5ea463f40a3__claim_10704,no,partial,yes,,downstream_filled_after_no
+Yang,Annotation_Yang.csv,21,tweets_news__75d9dd2099921ee1__claim_18311,ye s,no,yes,,nonstandard_claim_well_formed

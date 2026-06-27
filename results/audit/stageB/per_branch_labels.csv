@@ -1,0 +1,91 @@
+row_id,combo,score,coverage,claim_well_formed,entailment,score_correct,vagueness,accepted,note
+B0001,heuristic,2,1.0,yes,yes,no,no,no,verbatim quote claim labeled score 2 — annotator confused source-content-validity with claim-faithfulness
+B0002,heuristic,3,1.0,yes,yes,no,no,no,verbatim quote claim labeled score 3 — same confusion
+B0003,heuristic,3,0.167,no,partial,n/a,yes,no,reasoning chain not atomic
+B0004,heuristic,2,0.333,yes,partial,no,no,no,KKK alluded via klan/kkkrats — score too low
+B0005,heuristic,3,0.75,no,n/a,n/a,yes,no,fragment
+B0006,heuristic,2,1.0,no,partial,n/a,yes,no,fragment / header
+B0007,heuristic,2,0.1,no,partial,n/a,yes,no,reasoning chain
+B0008,heuristic,2,0.2,no,no,yes,n/a,no,stutter, claim doesn't apply to source
+B0009,heuristic,1,0.5,yes,yes,no,no,no,phrase IS in source but score 1 — label error
+B0010,heuristic,2,0.333,no,partial,n/a,yes,no,long reasoning chain
+B0011,heuristic,7,0.429,no,yes,n/a,no,no,scratchpad prefix
+B0012,heuristic,7,0.4,no,partial,n/a,yes,no,fragment
+B0013,heuristic,5,0.1,no,no,n/a,yes,no,scratchpad about world knowledge not source
+B0014,heuristic,7,0.4,yes,partial,yes,no,yes,phrase in source + interpretation
+B0015,heuristic,7,0.2,no,partial,n/a,yes,no,stutter + speculation
+B0016,heuristic,9,1.0,yes,yes,yes,no,yes,faithful paraphrase
+B0017,heuristic,9,0.833,yes,yes,yes,no,yes,faithful
+B0018,heuristic,8,0.25,yes,yes,yes,no,yes,faithful
+B0019,heuristic,8,0.2,yes,yes,yes,yes,yes,general but faithful
+B0020,heuristic,9,0.5,yes,partial,no,no,no,phrase not in visible source
+B0021,heuristic,8,0.333,yes,yes,yes,yes,yes,classification of source type
+B0022,heuristic,9,0.7,yes,yes,yes,no,yes,direct paraphrase
+B0023,heuristic,8,0.2,yes,yes,yes,yes,yes,observation about pro-life context
+B0024,heuristic,8,0.5,no,no,n/a,yes,no,meta-speculation about claim's own meaning
+B0025,heuristic,8,0.5,yes,yes,yes,no,yes,reasonable interpretation
+B0026,heuristic,2,0.2,no,partial,n/a,yes,no,scratchpad
+B0027,heuristic,9,0.125,yes,yes,yes,no,yes,classification (text is hateful)
+B0028,heuristic,7,0.111,yes,partial,yes,yes,yes,compound claim partially in source
+B0029,heuristic,9,0.167,yes,yes,yes,no,yes,observation (text begins with Fine)
+B0030,heuristic,7,0.111,no,partial,n/a,yes,no,reasoning chain
+B0031,llm_gpt5mini,1,0.2,yes,no,yes,no,yes,no handles at start (correct negative)
+B0032,llm_gpt5mini,3,0.857,yes,partial,no,no,no,Sanders article — Biden tangential
+B0033,llm_gpt5mini,4,0.778,yes,partial,yes,no,yes,implicit NATO arguments
+B0034,llm_gpt5mini,2,0.375,yes,yes,no,no,no,nazi joke = no difference — score 2 wrong
+B0035,llm_gpt5mini,2,0.5,yes,yes,no,no,no,public opinion is in source — score 2 wrong
+B0036,llm_gpt5mini,3,0.333,yes,partial,no,no,no,
+B0037,llm_gpt5mini,3,0.889,yes,yes,no,no,no,direct paraphrase — score 3 wrong
+B0038,llm_gpt5mini,2,1.0,yes,yes,no,no,no,verbatim — score 2 wrong
+B0039,llm_gpt5mini,2,0.3,yes,no,yes,no,yes,Church of Global Warming used skeptically (correct)
+B0040,llm_gpt5mini,1,0.333,yes,yes,no,no,no,mockery implies seriousness
+B0041,llm_gpt5mini,7,0.167,yes,yes,no,no,no,thanks IS in source
+B0042,llm_gpt5mini,7,0.571,yes,partial,yes,no,yes,reports public view rather than itself attributing
+B0043,llm_gpt5mini,7,0.167,yes,partial,yes,no,yes,short headline interpretation
+B0044,llm_gpt5mini,7,0.5,yes,yes,no,no,no,direct phrase ref
+B0045,llm_gpt5mini,7,0.75,yes,yes,no,no,no,direct quote
+B0046,llm_gpt5mini,9,0.5,yes,yes,yes,no,yes,reasonable inference
+B0047,llm_gpt5mini,9,0.2,yes,yes,yes,no,yes,direct phrase
+B0048,llm_gpt5mini,8,0.9,yes,yes,yes,no,yes,detailed analysis
+B0049,llm_gpt5mini,9,0.727,yes,yes,yes,no,yes,detailed analysis
+B0050,llm_gpt5mini,9,0.2,yes,yes,yes,no,yes,correct absence
+B0051,llm_gpt5mini,9,0.867,yes,yes,yes,no,yes,specific claim, high coverage
+B0052,llm_gpt5mini,9,1.0,yes,yes,yes,no,yes,phrase verbatim
+B0053,llm_gpt5mini,9,0.286,yes,yes,yes,no,yes,direct quote about beginning
+B0054,llm_gpt5mini,9,0.125,yes,yes,yes,yes,yes,classification (procedural message)
+B0055,llm_gpt5mini,9,0.833,yes,yes,yes,no,yes,detailed argument
+B0056,llm_gpt5mini,9,0.091,yes,yes,yes,yes,yes,correct absence
+B0057,llm_gpt5mini,7,0.125,yes,partial,yes,no,yes,partial entailment
+B0058,llm_gpt5mini,9,0.182,yes,yes,yes,yes,yes,characterization of style
+B0059,llm_gpt5mini,9,0.125,yes,yes,yes,no,yes,correct absence
+B0060,llm_gpt5mini,9,0.2,yes,yes,yes,no,yes,direct phrase ref
+B0061,llm_gptoss,3,1.0,yes,yes,no,yes,no,faithful BLM topic — score 3 wrong
+B0062,llm_gptoss,3,0.333,yes,partial,no,no,no,frame interpretation
+B0063,llm_gptoss,2,1.0,yes,yes,no,no,no,Thai forces likely in truncated source
+B0064,llm_gptoss,2,0.857,yes,yes,no,no,no,community guidelines mentioned in source
+B0065,llm_gptoss,3,0.2,yes,partial,no,no,no,interpretation
+B0066,llm_gptoss,3,0.167,yes,partial,no,yes,no,reader inference
+B0067,llm_gptoss,2,0.5,yes,yes,no,no,no,faithful — score 2 wrong
+B0068,llm_gptoss,2,0.25,yes,partial,no,yes,no,
+B0069,llm_gptoss,3,0.25,yes,partial,no,no,no,
+B0070,llm_gptoss,2,0.2,yes,partial,no,no,no,
+B0071,llm_gptoss,7,1.0,yes,yes,no,no,no,coalition likely in truncated source
+B0072,llm_gptoss,7,0.667,yes,partial,yes,no,yes,
+B0073,llm_gptoss,7,0.8,yes,yes,no,no,no,direct quote — score 7 just below 8-9
+B0074,llm_gptoss,7,0.333,yes,yes,no,no,no,faithful summary
+B0075,llm_gptoss,7,0.8,yes,yes,no,no,no,
+B0076,llm_gptoss,9,0.8,yes,yes,yes,no,yes,
+B0077,llm_gptoss,9,1.0,yes,yes,yes,no,yes,URL verbatim
+B0078,llm_gptoss,9,0.8,yes,yes,yes,no,yes,
+B0079,llm_gptoss,9,0.429,yes,yes,yes,no,yes,correct absence
+B0080,llm_gptoss,9,0.2,yes,partial,no,no,no,visible has 1 occurrence not multiple
+B0081,llm_gptoss,9,0.167,yes,yes,yes,yes,yes,
+B0082,llm_gptoss,9,0.182,yes,yes,yes,no,yes,
+B0083,llm_gptoss,9,0.833,yes,yes,yes,no,yes,
+B0084,llm_gptoss,9,0.667,yes,yes,yes,no,yes,phrase verbatim
+B0085,llm_gptoss,9,0.4,yes,yes,yes,no,yes,phrase IS in source
+B0086,llm_gptoss,9,0.167,yes,yes,yes,no,yes,
+B0087,llm_gptoss,9,0.167,yes,yes,yes,yes,yes,
+B0088,llm_gptoss,7,0.167,yes,partial,yes,yes,yes,about author intent
+B0089,llm_gptoss,9,0.111,yes,yes,yes,no,yes,
+B0090,llm_gptoss,9,0.2,yes,yes,yes,no,yes,

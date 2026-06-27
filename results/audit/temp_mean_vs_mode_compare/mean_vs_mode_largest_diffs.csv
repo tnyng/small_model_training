@@ -1,0 +1,21 @@
+dataset,id,property,mode_score,mean_score,diff,abs_diff
+misinfo_cancer,60,"the text uses the phrase "" is just a generic academic, and "".",9.0,1.0000000602473251,-7.999999939752675,7.999999939752675
+misinfo_cancer,56,"The term ""hoax"" suggests that the screening is a fraud or a deception.",1.0,8.994376125661596,7.994376125661596,7.994376125661596
+misinfo_cancer,55,"the text uses the phrase ""in cancer"".",1.0,8.994026641332203,7.994026641332203,7.994026641332203
+misinfo_cancer,70,the text is a metaphor.,9.0,1.034296937294414,-7.965703062705586,7.965703062705586
+misinfo_cancer,72,the text fragment is a title or part of a title linking to an article.,1.0,8.96223757452991,7.96223757452991,7.96223757452991
+article_bias,72,"the text uses the phrase ""Democratic candidates,"".",9.0,1.8160033129352888,-7.183996687064711,7.183996687064711
+hatecot,87,"the text uses the phrase ""huntering gay people"".",9.0,2.246521389743706,-6.753478610256294,6.753478610256294
+article_bias,75,"the text uses the phrase ""racist"".",9.0,3.41768854270811,-5.58231145729189,5.58231145729189
+hatecot,77,the text should be classified as Benign.,9.0,3.59930171933773,-5.4006982806622705,5.4006982806622705
+article_bias,75,"the text uses the phrase ""Squad"".",9.0,3.632519863703733,-5.367480136296267,5.367480136296267
+article_bias,16,"the text uses the phrase ""take a seat,"".",9.0,4.176555828610089,-4.823444171389911,4.823444171389911
+implicit_hate,86,the text doesn't specify.,1.0,5.689365720808223,4.689365720808223,4.689365720808223
+bureaucracies,46,The text also includes military personnel.,9.0,4.334062109388136,-4.665937890611864,4.665937890611864
+hatecot,37,"The word ""fucking"" is a strong expletive, and ""moron"" is a derogatory term for someone who's considered stupid.",3.0,7.625946643366992,4.625946643366992,4.625946643366992
+hatecot,94,the text isn't offensive for that.,9.0,4.599181525707616,-4.400818474292384,4.400818474292384
+hatecot,95,"The text starts with ""I am convinced that you know the truth (Paul M.",9.0,4.659046161535554,-4.340953838464446,4.340953838464446
+bureaucracies,99,"the text uses the phrase ""KC-92s in Thailand,"".",9.0,4.748856272819941,-4.251143727180059,4.251143727180059
+implicit_hate,70,the text is not attacking someone based on their identity.,9.0,4.997689224670041,-4.002310775329959,4.002310775329959
+bureaucracies,76,"the text uses the phrase ""SEA"".",9.0,5.096446729754122,-3.9035532702458777,3.9035532702458777
+implicit_hate,25,"the text uses the phrase ""f***ing"".",2.0,5.865681592334242,3.8656815923342416,3.8656815923342416

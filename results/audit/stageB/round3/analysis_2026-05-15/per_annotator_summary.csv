@@ -1,0 +1,6 @@
+annotator,rows,blank_rows,notes_rows,claim_well_formed_yes,claim_well_formed_no,claim_well_formed_blank,entailment_yes,entailment_partial,entailment_no,entailment_blank,score_correct_yes,score_correct_partial,score_correct_no,score_correct_blank,stop_style_rows
+Alexander,30,0,20,24,2,0,14,11,5,0,18,6,5,0,0
+Jingwei,30,0,15,20,8,0,19,3,8,0,22,0,8,0,0
+Tobi,30,1,7,24,5,1,14,9,1,6,18,1,5,6,5
+Yang,30,0,0,28,1,0,21,1,8,0,27,0,3,0,0
+Yu,30,0,0,28,2,0,22,5,1,2,21,0,7,2,2
