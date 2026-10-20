@@ -1,0 +1,31 @@
+{
+  "n": 95,
+  "candidate_count": 255,
+  "test": "splits_v2/test.jsonl",
+  "checkpoint": "E2a sentence+source checkpoint, epoch 1 (not distributed)",
+  "threshold_dev_teacher_precision_90": [
+    0.9184802770614624,
+    1771,
+    0.9000564652738566
+  ],
+  "pairwise_original_gt_altered": 0.9315789473684211,
+  "median_score_original": 0.8791467547416687,
+  "median_score_altered": 0.7041600942611694,
+  "median_paired_drop": 0.049354732036590576,
+  "altered_score_ge_0_5": 0.6,
+  "original_score_ge_0_5": 0.8,
+  "by_edit_type": {
+    "antonym": {
+      "n": 31,
+      "pairwise_original_gt_altered": 0.8709677419354839,
+      "altered_score_ge_0_5": 0.6451612903225806
+    },
+    "negation": {
+      "n": 64,
+      "pairwise_original_gt_altered": 0.953125,
+      "altered_score_ge_0_5": 0.578125
+    }
+  },
+  "altered_score_ge_dev90_threshold": 0.24210526315789474,
+  "original_score_ge_dev90_threshold": 0.4421052631578947
+}

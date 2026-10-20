@@ -10,3 +10,12 @@ build/
 *.egg-info/
 outputs/
 data/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+experiments/prm_training/splits_v2/*.jsonl
+experiments/prm_training/gscore_sidecar_v1/*.jsonl
+experiments/prm_training/results_v2/**/*.jsonl
+experiments/prm_training/results_v2/logs/
+experiments/hf16_cross_model_full/

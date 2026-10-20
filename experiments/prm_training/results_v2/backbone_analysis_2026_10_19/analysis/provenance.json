@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "experiments/prm_training/results_v2/gscore_fbinary_r1_teacher_test_epoch3_v1/test_predictions.jsonl": "a4ab4a65cfc2fe2249954fcc66d2b405ef07f7d9a2009d1c1467469fb2e46aed",
+    "experiments/prm_training/results_v2/backbone_analysis_2026_10_19/inputs/large_test.jsonl": "44352b05e5b9881e1c53bd65e482d6fcc2a69536d5c6295bf7164aa2ed8a134b",
+    "experiments/prm_training/results_v2/backbone_analysis_2026_10_19/inputs/large_dev.jsonl": "691e86a0a2b610d472b8e7baf8de2f67228c4e591c94b03235a68575f8750be3"
+  },
+  "bootstrap": 2000,
+  "seed": 20261019,
+  "checkpoints": {
+    "base": "epoch3",
+    "large": "epoch2"
+  }
+}

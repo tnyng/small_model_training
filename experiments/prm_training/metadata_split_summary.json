@@ -1,0 +1,27 @@
+{
+  "seed": 20261008,
+  "package": "experiments/hf16_cross_model_full/proportional_2000/hf_upload_teacher_2k_v1",
+  "human_manifest": "experiments/prm_training/holdout_source_hashes.csv",
+  "split_unit": "exact classification_input SHA256 across all tasks/generators",
+  "source_hash_groups": {
+    "train": 1372,
+    "dev": 297,
+    "test": 297
+  },
+  "cot_count": 7932,
+  "sentence_count": 251870,
+  "counts": {
+    "rows_train": 177565,
+    "G1_train": 19600,
+    "F1_train": 889,
+    "rows_dev": 36729,
+    "G1_dev": 4244,
+    "F1_dev": 198,
+    "rows_test": 37576,
+    "G1_test": 4234,
+    "F1_test": 196
+  },
+  "human_hash_count": 160,
+  "pairwise_hash_overlap": 0,
+  "human_hash_overlap": 0
+}

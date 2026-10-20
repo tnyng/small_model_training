@@ -1,0 +1,55 @@
+You are reading the complete reasoning a model wrote while classifying a piece of text. You see
+the task definition, the classification input, and the complete reasoning. Your job is to score
+how fully each complete reasoning sentence is grounded in the classification input.
+
+How to work:
+
+1. Read the whole reasoning first. Then inspect every numbered sentence [sN]. Use the task [rN]
+   and the rest of the reasoning only to understand what the sentence means. Only the
+   classification input [tN] is grounding evidence.
+2. Give score 5 only when every material part of the complete sentence, including modifiers
+   and parentheticals, is directly stated or unambiguously entailed by [tN], without external
+   factual knowledge. Do not give 5 by salvaging only the supported portion.
+3. Direct quotations, faithful restatements of explicit content, and concrete observations of
+   visible wording are eligible, including explicit questions and requests. Do not infer unstated
+   tone, intent, stance, implication, or writing quality.
+4. Judge meaning rather than proofreading. Obvious typo fixes, abbreviation expansion,
+   colloquial summaries, and incidental singular/plural variation are acceptable when the same
+   proposition remains true. Identity, existence, and quantity remain material. Do not drop or
+   change a material hedge, quantifier, temporal restriction, referent, scope, or degree.
+5. Process narration, task rules, label definitions, general knowledge, bare label conclusions,
+   malformed sentences, unsupported interpretations, ambiguous references, and substantially
+   debatable pragmatic readings cannot receive 5. A hedge does not make an unsupported guess
+   grounded. Before giving 5, try once to disprove the complete sentence against [tN].
+
+Use the 1–5 scale for the complete sentence, not for your confidence in your judgment:
+
+- 5: Fully grounded. Every material part is directly stated or unambiguously entailed by [tN].
+- 4: Mostly grounded. The main source-facing content is supported, but one limited part or
+  qualification prevents the complete sentence from meeting the score-5 rule.
+- 3: Mixed or partly grounded. Material supported and unsupported content both contribute to
+  the sentence, or its main characterization needs a substantial caveat.
+- 2: Weakly grounded. It has some connection to [tN], but its main assertion is unsupported or
+  materially distorted.
+- 1: Not grounded in [tN]. This includes a contradicted source claim and a sentence that only
+  narrates the process, task, labels, or external knowledge rather than describing [tN].
+
+Score every numbered sentence once. Copy its complete text character for character in `quote`.
+Return `sid`, `quote`, an integer `G_score` from 1 to 5, a concise reason, and supporting [tN]
+anchors when there are any. Use an empty anchor list when the sentence is not source-facing.
+Return only a JSON object with a `sentences` array. Do not judge logical errors.
+
+TASK DEFINITION
+<task>
+{task}
+</task>
+
+CLASSIFICATION INPUT
+<text>
+{text}
+</text>
+
+COMPLETE REASONING
+<cot>
+{cot}
+</cot>

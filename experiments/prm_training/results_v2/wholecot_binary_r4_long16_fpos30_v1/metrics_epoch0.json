@@ -1,0 +1,62 @@
+{
+  "epoch": 0,
+  "config": {
+    "splits": "splits_v2",
+    "out": "runs/wholecot_binary_r4_long16_fpos30_v1",
+    "model": "answerdotai/ModernBERT-base",
+    "max_len": "8192",
+    "bs": "1",
+    "grad_accum": "8",
+    "epochs": "16",
+    "lr": "2e-05",
+    "f_pos_weight": "30.0",
+    "seed": "42",
+    "max_train_cots": "0",
+    "max_dev_cots": "0",
+    "profile_only": "False",
+    "no_checkpoint": "False",
+    "checkpoint_policy": "best"
+  },
+  "coverage": {
+    "train": {
+      "input_cots": 5544,
+      "one_pass_cots": 5543,
+      "excluded_cots": 1,
+      "input_sentences": 177565,
+      "excluded_sentences": 378,
+      "token_p50": 814.0,
+      "token_p90": 1688.0999999999995,
+      "token_p99": 4050.5499999999956,
+      "token_max": 9088
+    },
+    "dev": {
+      "input_cots": 1200,
+      "one_pass_cots": 1200,
+      "excluded_cots": 0,
+      "input_sentences": 36729,
+      "excluded_sentences": 0,
+      "token_p50": 795.0,
+      "token_p90": 1558.1000000000001,
+      "token_p99": 3610.04,
+      "token_max": 4814
+    }
+  },
+  "results": {
+    "G": {
+      "auc": 0.9492113071114887,
+      "ap": 0.7111005611444537,
+      "n": 36640,
+      "base_rate": 0.1158296943231441
+    },
+    "F": {
+      "auc": 0.7935146509701168,
+      "ap": 0.0344059431451253,
+      "n": 35957,
+      "base_rate": 0.005506577300664683
+    }
+  },
+  "eval_seconds": 27.906461477279663,
+  "eval_cots_per_second": 43.00079395508429,
+  "eval_sentences_per_second": 1316.1468009802425,
+  "cuda_peak_memory_gb": 8.174219264
+}

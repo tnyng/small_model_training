@@ -1,0 +1,21 @@
+{
+  "partition": "test",
+  "checkpoint": "runs/wholecot_binary_r4_long16_fpos30_v1/checkpoint_best_f.pt",
+  "checkpoint_epoch": 2,
+  "results": {
+    "G": {
+      "auc": 0.9646118022048761,
+      "ap": 0.784565417892817,
+      "n": 37440,
+      "base_rate": 0.11308760683760684
+    },
+    "F": {
+      "auc": 0.8491439701135453,
+      "ap": 0.06340600421333081,
+      "n": 36961,
+      "base_rate": 0.0053028868266551225
+    }
+  },
+  "cots": 1188,
+  "sentences": 37576
+}

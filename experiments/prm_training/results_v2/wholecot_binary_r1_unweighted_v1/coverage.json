@@ -1,0 +1,24 @@
+{
+  "train": {
+    "input_cots": 5544,
+    "one_pass_cots": 5543,
+    "excluded_cots": 1,
+    "input_sentences": 177565,
+    "excluded_sentences": 378,
+    "token_p50": 814.0,
+    "token_p90": 1688.0999999999995,
+    "token_p99": 4050.5499999999956,
+    "token_max": 9088
+  },
+  "dev": {
+    "input_cots": 1200,
+    "one_pass_cots": 1200,
+    "excluded_cots": 0,
+    "input_sentences": 36729,
+    "excluded_sentences": 0,
+    "token_p50": 795.0,
+    "token_p90": 1558.1000000000001,
+    "token_p99": 3610.04,
+    "token_max": 4814
+  }
+}

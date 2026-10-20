@@ -1,0 +1,67 @@
+{
+  "partition": "dev",
+  "n_sentences": 36729,
+  "reference": "new Luna G_score=5 and unchanged F teacher labels",
+  "metrics": {
+    "G5": {
+      "binary": {
+        "n": 36565,
+        "positive": 5620,
+        "base_rate": 0.15369889238342677,
+        "ap": 0.8416261738424612,
+        "auc": 0.963206926650371,
+        "precision_at_20": 1.0,
+        "precision_at_100": 1.0,
+        "precision_at_500": 0.984,
+        "precision_at_1000": 0.97
+      },
+      "graded": {
+        "n": 36565,
+        "positive": 5620,
+        "base_rate": 0.15369889238342677,
+        "ap": 0.8851247327084346,
+        "auc": 0.9744616754901504,
+        "precision_at_20": 1.0,
+        "precision_at_100": 1.0,
+        "precision_at_500": 0.992,
+        "precision_at_1000": 0.99
+      },
+      "graded_minus_binary": {
+        "ap": 0.043498558865973425,
+        "auc": 0.011254748839779394,
+        "precision_at_20": 0.0,
+        "precision_at_100": 0.0
+      }
+    },
+    "F": {
+      "binary": {
+        "n": 35957,
+        "positive": 198,
+        "base_rate": 0.005506577300664683,
+        "ap": 0.07306756485870296,
+        "auc": 0.8649216231782858,
+        "precision_at_20": 0.35,
+        "precision_at_100": 0.18,
+        "precision_at_500": 0.088,
+        "precision_at_1000": 0.066
+      },
+      "graded": {
+        "n": 35957,
+        "positive": 198,
+        "base_rate": 0.005506577300664683,
+        "ap": 0.07986212822516446,
+        "auc": 0.8610839229284936,
+        "precision_at_20": 0.35,
+        "precision_at_100": 0.18,
+        "precision_at_500": 0.078,
+        "precision_at_1000": 0.06
+      },
+      "graded_minus_binary": {
+        "ap": 0.0067945633664615035,
+        "auc": -0.003837700249792242,
+        "precision_at_20": 0.0,
+        "precision_at_100": 0.0
+      }
+    }
+  }
+}

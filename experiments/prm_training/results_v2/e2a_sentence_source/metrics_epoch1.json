@@ -1,0 +1,31 @@
+{
+  "epoch": 1,
+  "config": {
+    "splits": "splits_v2",
+    "out": "runs/e2a_sentence_source",
+    "model": "answerdotai/ModernBERT-base",
+    "mode": "sentence_source",
+    "exp": "gf",
+    "tier": "None",
+    "max_len": "512",
+    "bs": "32",
+    "epochs": "2",
+    "lr": "2e-05",
+    "max_dev": "40000",
+    "seed": "42"
+  },
+  "results": {
+    "G": {
+      "auc": 0.9689095041055906,
+      "ap": 0.8161830711250287,
+      "n": 36640,
+      "base_rate": 0.11582969129085541
+    },
+    "F": {
+      "auc": 0.8431938869101542,
+      "ap": 0.06560702573959895,
+      "n": 35957,
+      "base_rate": 0.005506577435880899
+    }
+  }
+}

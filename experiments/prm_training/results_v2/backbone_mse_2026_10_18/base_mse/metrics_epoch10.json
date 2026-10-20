@@ -1,0 +1,113 @@
+{
+  "epoch": 10,
+  "config": {
+    "splits": "splits_v2",
+    "g_sidecar": "gscore_sidecar_v1",
+    "out": "runs/gscore_base_mse_long16_fpos30_v1",
+    "model": "answerdotai/ModernBERT-base",
+    "max_len": "8192",
+    "bs": "1",
+    "grad_accum": "8",
+    "epochs": "16",
+    "lr": "2e-05",
+    "f_pos_weight": "30.0",
+    "g_objective": "mse",
+    "g_loss_weight": "1.0",
+    "seed": "42",
+    "max_train_cots": "0",
+    "max_dev_cots": "0",
+    "no_checkpoint": "False",
+    "eval_only": "None",
+    "checkpoint": "None"
+  },
+  "coverage": {
+    "train": {
+      "input_cots": 5544,
+      "one_pass_cots": 5543,
+      "excluded": [
+        {
+          "cot_id": "olmo31_32b__muller_2021dv_muller_2021dv_822",
+          "tokens": 9088,
+          "sentences": 378
+        }
+      ],
+      "input_sentences": 177565
+    },
+    "dev": {
+      "input_cots": 1200,
+      "one_pass_cots": 1200,
+      "excluded": [],
+      "input_sentences": 36729
+    }
+  },
+  "results": {
+    "G": {
+      "n": 36565,
+      "score_counts": [
+        16755,
+        5441,
+        5031,
+        3718,
+        5620
+      ],
+      "mae_class": 0.32829208259264325,
+      "mae_expected": 0.36725501832899765,
+      "mse_expected": 0.4024049473994592,
+      "quadratic_kappa": 0.8981426117831837,
+      "accuracy": 0.7245179816764665,
+      "confusion": [
+        [
+          15433,
+          1030,
+          192,
+          62,
+          38
+        ],
+        [
+          1080,
+          2845,
+          1191,
+          287,
+          38
+        ],
+        [
+          169,
+          1274,
+          2306,
+          1116,
+          166
+        ],
+        [
+          56,
+          264,
+          957,
+          1726,
+          715
+        ],
+        [
+          32,
+          56,
+          219,
+          1131,
+          4182
+        ]
+      ],
+      "score5": {
+        "auc": 0.9681553628898476,
+        "ap": 0.8675344322707941,
+        "n": 36565,
+        "base_rate": 0.15369889238342677,
+        "precision_at_20": 1.0,
+        "precision_at_100": 0.99
+      }
+    },
+    "F": {
+      "auc": 0.7308578952081287,
+      "ap": 0.04401524031637922,
+      "n": 35957,
+      "base_rate": 0.005506577300664683,
+      "precision_at_20": 0.25,
+      "precision_at_100": 0.13
+    }
+  }
+}

@@ -1,5 +1,7 @@
 # ModernBERT UQ
 
+This branch also contains the newer RuleFollower sentence-level G/F reward-model experiments. See [experiments/prm_training/README.md](experiments/prm_training/README.md) for their design, compact results, and reproduction steps. The original UQ code below is retained as a separate, earlier project.
+
 Small research repo for encoder-based binary classification with:
 
 - a shared encoder backbone

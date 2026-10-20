@@ -1,0 +1,81 @@
+{
+  "predictions": "runs/wholecot_binary_r2_fpos10_v1/dev_predictions_epoch1.jsonl",
+  "source_groups": {
+    "calibration": 151,
+    "threshold": 146
+  },
+  "minimum_triggers": 20,
+  "heads": {
+    "G": {
+      "calibration_fit": {
+        "slope": 0.9430355197245448,
+        "bias": 0.07361761614656254,
+        "n": 18985,
+        "positives": 2187
+      },
+      "threshold_split": {
+        "n": 17655,
+        "positives": 2057,
+        "raw": {
+          "brier": 0.044987926237294924,
+          "log_loss": 0.14657432961615316,
+          "ece_10_equal_width": 0.009007588923882606
+        },
+        "calibrated": {
+          "brier": 0.04491128181364578,
+          "log_loss": 0.1457284970954491,
+          "ece_10_equal_width": 0.0057567681085628755
+        }
+      },
+      "candidate_gates": {
+        "0.9": {
+          "threshold": 0.8180074362765901,
+          "triggered": 831,
+          "true_positive": 748,
+          "false_positive": 83,
+          "precision_on_threshold_split": 0.9001203369434416,
+          "recall_on_threshold_split": 0.36363636363636365,
+          "false_triggers_per_1000": 4.701217785329935
+        },
+        "0.95": {
+          "threshold": 0.9062872156068785,
+          "triggered": 344,
+          "true_positive": 327,
+          "false_positive": 17,
+          "precision_on_threshold_split": 0.9505813953488372,
+          "recall_on_threshold_split": 0.1589693728731162,
+          "false_triggers_per_1000": 0.9629000283205891
+        },
+        "0.99": null
+      }
+    },
+    "F": {
+      "calibration_fit": {
+        "slope": 0.8802873273828684,
+        "bias": -1.816007843889678,
+        "n": 18511,
+        "positives": 90
+      },
+      "threshold_split": {
+        "n": 17446,
+        "positives": 108,
+        "raw": {
+          "brier": 0.0074996770222281375,
+          "log_loss": 0.03978820599210431,
+          "ece_10_equal_width": 0.013970625853711007
+        },
+        "calibrated": {
+          "brier": 0.005990190106003633,
+          "log_loss": 0.031973954295192314,
+          "ece_10_equal_width": 0.0012363065630422246
+        }
+      },
+      "candidate_gates": {
+        "0.9": null,
+        "0.95": null,
+        "0.99": null
+      }
+    }
+  },
+  "warning": "Threshold-split precision is used for selection and is optimistic; validate frozen gates on independent human labels. Null means no gate meets the target with the minimum support."
+}

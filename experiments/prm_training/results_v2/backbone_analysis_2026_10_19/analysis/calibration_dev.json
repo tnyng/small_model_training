@@ -1,0 +1,441 @@
+{
+  "source_groups": {
+    "calibration": 151,
+    "threshold": 146
+  },
+  "heads": {
+    "G5": {
+      "fit": {
+        "slope": 0.9486208447832446,
+        "bias": 0.5574204131732224,
+        "n": 18957,
+        "positives": 2889,
+        "converged": true,
+        "iterations": 8,
+        "fit_nll": 0.12860254179245317
+      },
+      "threshold_partition": {
+        "n": 17608,
+        "positives": 2731,
+        "prevalence": 0.1550999545661063,
+        "ap": 0.8955049328370625,
+        "raw": {
+          "brier": 0.044880315221863795,
+          "nll": 0.14936876649716463,
+          "ece_10_equal_width": 0.02427532275898342,
+          "mean_probability": 0.1308246318071229,
+          "bins": [
+            {
+              "left": 0.0,
+              "right": 0.1,
+              "n": 13981,
+              "mean_probability": 0.007421322443146767,
+              "positive_rate": 0.018954295114798656
+            },
+            {
+              "left": 0.1,
+              "right": 0.2,
+              "n": 613,
+              "mean_probability": 0.14311800791379095,
+              "positive_rate": 0.28548123980424145
+            },
+            {
+              "left": 0.2,
+              "right": 0.30000000000000004,
+              "n": 385,
+              "mean_probability": 0.2448164488975104,
+              "positive_rate": 0.37662337662337664
+            },
+            {
+              "left": 0.30000000000000004,
+              "right": 0.4,
+              "n": 256,
+              "mean_probability": 0.3505542555358261,
+              "positive_rate": 0.46484375
+            },
+            {
+              "left": 0.4,
+              "right": 0.5,
+              "n": 222,
+              "mean_probability": 0.4491048343815245,
+              "positive_rate": 0.5585585585585585
+            },
+            {
+              "left": 0.5,
+              "right": 0.6000000000000001,
+              "n": 223,
+              "mean_probability": 0.5523322946287591,
+              "positive_rate": 0.6098654708520179
+            },
+            {
+              "left": 0.6000000000000001,
+              "right": 0.7000000000000001,
+              "n": 210,
+              "mean_probability": 0.6492072701454162,
+              "positive_rate": 0.6714285714285714
+            },
+            {
+              "left": 0.7000000000000001,
+              "right": 0.8,
+              "n": 254,
+              "mean_probability": 0.7494489665575853,
+              "positive_rate": 0.84251968503937
+            },
+            {
+              "left": 0.8,
+              "right": 0.9,
+              "n": 329,
+              "mean_probability": 0.8506266664951405,
+              "positive_rate": 0.9179331306990881
+            },
+            {
+              "left": 0.9,
+              "right": 1.0,
+              "n": 1135,
+              "mean_probability": 0.9679770345729878,
+              "positive_rate": 0.9779735682819384
+            }
+          ]
+        },
+        "calibrated": {
+          "brier": 0.04282439879254832,
+          "nll": 0.1402580302607699,
+          "ece_10_equal_width": 0.00854240665764927,
+          "mean_probability": 0.15242512879783987,
+          "bins": [
+            {
+              "left": 0.0,
+              "right": 0.1,
+              "n": 13334,
+              "mean_probability": 0.008954042364962188,
+              "positive_rate": 0.011249437528123594
+            },
+            {
+              "left": 0.1,
+              "right": 0.2,
+              "n": 768,
+              "mean_probability": 0.14310820965138632,
+              "positive_rate": 0.17578125
+            },
+            {
+              "left": 0.2,
+              "right": 0.30000000000000004,
+              "n": 419,
+              "mean_probability": 0.24445095474318,
+              "positive_rate": 0.3031026252983294
+            },
+            {
+              "left": 0.30000000000000004,
+              "right": 0.4,
+              "n": 362,
+              "mean_probability": 0.3491322682763954,
+              "positive_rate": 0.3756906077348066
+            },
+            {
+              "left": 0.4,
+              "right": 0.5,
+              "n": 248,
+              "mean_probability": 0.4522679115194037,
+              "positive_rate": 0.4435483870967742
+            },
+            {
+              "left": 0.5,
+              "right": 0.6000000000000001,
+              "n": 234,
+              "mean_probability": 0.5490123191200468,
+              "positive_rate": 0.5042735042735043
+            },
+            {
+              "left": 0.6000000000000001,
+              "right": 0.7000000000000001,
+              "n": 254,
+              "mean_probability": 0.649913848977031,
+              "positive_rate": 0.594488188976378
+            },
+            {
+              "left": 0.7000000000000001,
+              "right": 0.8,
+              "n": 299,
+              "mean_probability": 0.7516671561513619,
+              "positive_rate": 0.6722408026755853
+            },
+            {
+              "left": 0.8,
+              "right": 0.9,
+              "n": 396,
+              "mean_probability": 0.8563948198538381,
+              "positive_rate": 0.8787878787878788
+            },
+            {
+              "left": 0.9,
+              "right": 1.0,
+              "n": 1294,
+              "mean_probability": 0.9707884544743433,
+              "positive_rate": 0.9698608964451314
+            }
+          ]
+        },
+        "prevalence_only": {
+          "brier": 0.13105126175145082,
+          "nll": 0.4314825446580039,
+          "ece_10_equal_width": 0.002702423311160884,
+          "mean_probability": 0.15239753125494543,
+          "bins": [
+            {
+              "left": 0.1,
+              "right": 0.2,
+              "n": 17608,
+              "mean_probability": 0.15239753125494543,
+              "positive_rate": 0.1550999545661063
+            }
+          ]
+        }
+      },
+      "candidate_gates": {
+        "0.9": {
+          "threshold": 0.5550435781478882,
+          "selected": 2031,
+          "positives": 1828,
+          "negatives": 203,
+          "precision": 0.9000492368291482,
+          "recall": 0.6693518857561332,
+          "coverage": 0.11534529759200364,
+          "calibrated_threshold": 0.6829002242078981,
+          "source_groups": 146,
+          "teacher_negative_per_1000": 11.528850522489778,
+          "selected_threshold_precision_ci": {
+            "low": 0.8820341976674663,
+            "high": 0.9161025048881196,
+            "valid_resamples": 2000
+          },
+          "bootstrap_zero_selection_count": 0
+        },
+        "0.95": {
+          "threshold": 0.7237598299980164,
+          "selected": 1651,
+          "positives": 1569,
+          "negatives": 82,
+          "precision": 0.9503331314354937,
+          "recall": 0.5745148297326986,
+          "coverage": 0.09376419809177647,
+          "calibrated_threshold": 0.8132277919019771,
+          "source_groups": 146,
+          "teacher_negative_per_1000": 4.6569741026806,
+          "selected_threshold_precision_ci": {
+            "low": 0.9358811837883552,
+            "high": 0.9629844013017619,
+            "valid_resamples": 2000
+          },
+          "bootstrap_zero_selection_count": 0
+        },
+        "0.99": {
+          "threshold": 0.974855363368988,
+          "selected": 603,
+          "positives": 597,
+          "negatives": 6,
+          "precision": 0.9900497512437811,
+          "recall": 0.21860124496521421,
+          "coverage": 0.034245797364834164,
+          "calibrated_threshold": 0.9824869066593901,
+          "source_groups": 142,
+          "teacher_negative_per_1000": 0.3407542026351658,
+          "selected_threshold_precision_ci": {
+            "low": 0.9819664728525667,
+            "high": 0.9968602825745683,
+            "valid_resamples": 2000
+          },
+          "bootstrap_zero_selection_count": 0
+        }
+      },
+      "raw_at_0_5": {
+        "selected": 2151,
+        "positives": 1903
+      },
+      "calibrated_at_0_5": {
+        "selected": 2477,
+        "positives": 2073
+      }
+    },
+    "F": {
+      "fit": {
+        "slope": 0.6088018633342567,
+        "bias": -2.624912280466277,
+        "n": 18511,
+        "positives": 90,
+        "converged": true,
+        "iterations": 12,
+        "fit_nll": 0.023865491353035728
+      },
+      "threshold_partition": {
+        "n": 17446,
+        "positives": 108,
+        "prevalence": 0.006190530780694715,
+        "ap": 0.10482181817638671,
+        "raw": {
+          "brier": 0.012113214619655022,
+          "nll": 0.0494070735291143,
+          "ece_10_equal_width": 0.016348776395702754,
+          "mean_probability": 0.02253930717639747,
+          "bins": [
+            {
+              "left": 0.0,
+              "right": 0.1,
+              "n": 16687,
+              "mean_probability": 0.006841304072805701,
+              "positive_rate": 0.003775394019296458
+            },
+            {
+              "left": 0.1,
+              "right": 0.2,
+              "n": 306,
+              "mean_probability": 0.14348072831342423,
+              "positive_rate": 0.0196078431372549
+            },
+            {
+              "left": 0.2,
+              "right": 0.30000000000000004,
+              "n": 118,
+              "mean_probability": 0.24658350153999814,
+              "positive_rate": 0.0423728813559322
+            },
+            {
+              "left": 0.30000000000000004,
+              "right": 0.4,
+              "n": 73,
+              "mean_probability": 0.34730668835443995,
+              "positive_rate": 0.0684931506849315
+            },
+            {
+              "left": 0.4,
+              "right": 0.5,
+              "n": 62,
+              "mean_probability": 0.448845041855689,
+              "positive_rate": 0.04838709677419355
+            },
+            {
+              "left": 0.5,
+              "right": 0.6000000000000001,
+              "n": 43,
+              "mean_probability": 0.5495716374973918,
+              "positive_rate": 0.046511627906976744
+            },
+            {
+              "left": 0.6000000000000001,
+              "right": 0.7000000000000001,
+              "n": 33,
+              "mean_probability": 0.6424838214209585,
+              "positive_rate": 0.06060606060606061
+            },
+            {
+              "left": 0.7000000000000001,
+              "right": 0.8,
+              "n": 32,
+              "mean_probability": 0.7555041611194611,
+              "positive_rate": 0.09375
+            },
+            {
+              "left": 0.8,
+              "right": 0.9,
+              "n": 36,
+              "mean_probability": 0.8612955477502611,
+              "positive_rate": 0.25
+            },
+            {
+              "left": 0.9,
+              "right": 1.0,
+              "n": 56,
+              "mean_probability": 0.9439259937831334,
+              "positive_rate": 0.17857142857142858
+            }
+          ]
+        },
+        "calibrated": {
+          "brier": 0.005891436023109268,
+          "nll": 0.030512340024201806,
+          "ece_10_equal_width": 0.0015116480636772657,
+          "mean_probability": 0.005598746395941974,
+          "bins": [
+            {
+              "left": 0.0,
+              "right": 0.1,
+              "n": 17316,
+              "mean_probability": 0.003951824929925609,
+              "positive_rate": 0.004966504966504966
+            },
+            {
+              "left": 0.1,
+              "right": 0.2,
+              "n": 63,
+              "mean_probability": 0.14274309191147755,
+              "positive_rate": 0.14285714285714285
+            },
+            {
+              "left": 0.2,
+              "right": 0.30000000000000004,
+              "n": 43,
+              "mean_probability": 0.2390387442327368,
+              "positive_rate": 0.16279069767441862
+            },
+            {
+              "left": 0.30000000000000004,
+              "right": 0.4,
+              "n": 12,
+              "mean_probability": 0.33757158458993325,
+              "positive_rate": 0.16666666666666666
+            },
+            {
+              "left": 0.4,
+              "right": 0.5,
+              "n": 8,
+              "mean_probability": 0.44874084247727286,
+              "positive_rate": 0.25
+            },
+            {
+              "left": 0.5,
+              "right": 0.6000000000000001,
+              "n": 2,
+              "mean_probability": 0.5522595571767792,
+              "positive_rate": 0.0
+            },
+            {
+              "left": 0.6000000000000001,
+              "right": 0.7000000000000001,
+              "n": 2,
+              "mean_probability": 0.6145717376650515,
+              "positive_rate": 1.0
+            }
+          ]
+        },
+        "prevalence_only": {
+          "brier": 0.006153973172570004,
+          "nll": 0.03781635090048469,
+          "ece_10_equal_width": 0.001328556819266375,
+          "mean_probability": 0.00486197396142834,
+          "bins": [
+            {
+              "left": 0.0,
+              "right": 0.1,
+              "n": 17446,
+              "mean_probability": 0.00486197396142834,
+              "positive_rate": 0.006190530780694715
+            }
+          ]
+        }
+      },
+      "candidate_gates": {
+        "0.9": null,
+        "0.95": null,
+        "0.99": null
+      },
+      "raw_at_0_5": {
+        "selected": 200,
+        "positives": 26
+      },
+      "calibrated_at_0_5": {
+        "selected": 4,
+        "positives": 2
+      }
+    }
+  },
+  "scope": "Teacher-dev only. Full dev was already used for checkpoint selection. Gate selection uses the threshold partition, so precision and its fixed-threshold bootstrap interval are optimistic. G calibration targets G_score=5 only. Targets and min20 are exploratory, not deployment requirements."
+}

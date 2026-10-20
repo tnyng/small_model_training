@@ -1,0 +1,31 @@
+{
+  "device": "NVIDIA A100-PCIE-40GB",
+  "e2a": {
+    "cots": 1200,
+    "sentences": 36729,
+    "gpu_inference_seconds": 90.586311862804,
+    "cots_per_second": 13.247034516842238,
+    "sentences_per_second": 405.4586089742488,
+    "latency_p50_ms": 59.68866741750389,
+    "latency_p95_ms": 191.5497453534044,
+    "cuda_peak_memory_gb": 1.784566784,
+    "mean_sentences_per_cot": 30.6075,
+    "cpu_tokenization_seconds": 33.56805720902048,
+    "padded_input_tokens": 18805248
+  },
+  "wholecot": {
+    "cots": 1200,
+    "sentences": 36729,
+    "gpu_inference_seconds": 24.96513702068478,
+    "cots_per_second": 48.06703039545684,
+    "sentences_per_second": 1471.211632828945,
+    "latency_p50_ms": 19.900249550119042,
+    "latency_p95_ms": 21.21431343257427,
+    "cuda_peak_memory_gb": 1.045883904,
+    "mean_sentences_per_cot": 30.6075,
+    "cpu_tokenization_seconds": 3.3863634110894054,
+    "unpadded_input_tokens": 1127630
+  },
+  "inference_speedup_cots_per_second": 3.62851250476811,
+  "note": "Completed-CoT scoring, no cross-CoT batching; CPU tokenization and checkpoint loading excluded from GPU inference timing."
+}

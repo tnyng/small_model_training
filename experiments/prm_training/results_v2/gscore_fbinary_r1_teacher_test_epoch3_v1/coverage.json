@@ -1,0 +1,8 @@
+{
+  "test": {
+    "input_cots": 1188,
+    "one_pass_cots": 1188,
+    "excluded": [],
+    "input_sentences": 37576
+  }
+}

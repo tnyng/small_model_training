@@ -1,0 +1,20 @@
+{
+  "train": {
+    "input_cots": 5544,
+    "one_pass_cots": 5543,
+    "excluded": [
+      {
+        "cot_id": "olmo31_32b__muller_2021dv_muller_2021dv_822",
+        "tokens": 9088,
+        "sentences": 378
+      }
+    ],
+    "input_sentences": 177565
+  },
+  "dev": {
+    "input_cots": 1200,
+    "one_pass_cots": 1200,
+    "excluded": [],
+    "input_sentences": 36729
+  }
+}
